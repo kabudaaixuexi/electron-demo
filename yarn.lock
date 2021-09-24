@@ -6709,10 +6709,10 @@ xdg-basedir@^4.0.0:
   resolved "https://registry.npm.taobao.org/xdg-basedir/download/xdg-basedir-4.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fxdg-basedir%2Fdownload%2Fxdg-basedir-4.0.0.tgz#4bc8d9984403696225ef83a1573cbbcb4e79db13"
   integrity sha1-S8jZmEQDaWIl74OhVzy7y0552xM=
 
-xins.store.plugin@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.nlark.com/xins.store.plugin/download/xins.store.plugin-1.0.9.tgz#639fb80fb8836e86e7cec60be3c51257d549a4c4"
-  integrity sha1-Y5+4D7iDbobnzsYL48USV9VJpMQ=
+xins.store.plugin@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.npmmirror.com/xins.store.plugin/download/xins.store.plugin-1.0.10.tgz?cache=0&sync_timestamp=1632465658310&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fxins.store.plugin%2Fdownload%2Fxins.store.plugin-1.0.10.tgz#913adab644a1ee1bc25746b027ff5565fd312d5a"
+  integrity sha1-kTratkSh7hvCV0awJ/9VZf0xLVo=
   dependencies:
     microbundle "^0.13.3"
     vue "^3.2.1"

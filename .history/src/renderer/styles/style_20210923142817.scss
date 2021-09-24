@@ -1,0 +1,119 @@
+// Color
+$color-primary-main: #FAFFF0 !global; 
+$color-primary-derived-02: mix(#FAFFF0, #FFF, 20%) !global; 
+$color-primary-derived-04: mix(#FAFFF0, #FFF, 40%) !global; 
+$color-primary-derived-06: mix(#FAFFF0, #FFF, 60%) !global; 
+$color-primary-derived-08: mix(#FAFFF0, #FFF, 80%) !global; 
+
+$color-default-main: #000 !global; 
+$color-default-derived-02: mix(#000, #FFF, 20%) !global; 
+$color-default-derived-04: mix(#000, #FFF, 40%) !global; 
+$color-default-derived-06: mix(#000, #FFF, 60%) !global; 
+$color-default-derived-08: mix(#000, #FFF, 80%) !global; 
+
+// Flex
+@mixin Flex-Direction($flex-direction) {
+    flex-direction: $flex-direction;
+}
+%Flex {
+    display: flex;
+}
+%Block {
+    display: block;
+}
+%Flex-Start-Start {
+    @extend %Flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+%Flex-Start-Center {
+    @extend %Flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+%Flex-Start-End {
+    @extend %Flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+%Flex-Center-Start {
+    @extend %Flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+%Flex-Center-Center {
+    @extend %Flex;
+    align-items: center;
+    justify-content: center;
+}
+%Flex-Center-End {
+    @extend %Flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+%Flex-End-Start {
+    @extend %Flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+%Flex-End-Center {
+    @extend %Flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+%Flex-End-End {
+    @extend %Flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+%Flex-Start-Between {
+    @extend %Flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+%Flex-Center-Between {
+    @extend %Flex;
+    align-items: center;
+    justify-content: space-between;
+}
+%Flex-End-Between {
+    @extend %Flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+%Flex-Start-Around {
+    @extend %Flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+%Flex-Center-Around {
+    @extend %Flex;
+    align-items: center;
+    justify-content: space-around;
+}
+%Flex-End-Around {
+    @extend %Flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+// extends-height-width
+@mixin WH ($wh){
+    width: $wh;
+    height: $wh;
+}
+%Max-Height {
+    height: 100%;
+}
+%Max-Width {
+    width: 100%;
+}
+%Max {
+    width: 100%;
+    height: 100%;
+}
+
+// Border-radius
+@mixin BR($br) {
+    border-radius: $br;
+}
