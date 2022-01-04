@@ -15,7 +15,7 @@
 // });
 // export default socket
 
-const socket = require('socket.io-client')('http://192.168.5.85:30001');
+const socket = require('socket.io-client')('http://localhost:30001');
 socket.on('connect', function () {
     // socket.emit('config', {name:'save??'}, (response) => console.log('hut2:', response));
 });

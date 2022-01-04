@@ -62,20 +62,6 @@ export function unlink(path: string) {
 }
 
 /**
- * 检查文件是否存在于当前目录中、以及是否可写
- * @return 0 不存在 1 只可读 2 存在可读写
- */
-export function access(path: string) {
-  if (path.substr(0, 1) !== '/' && path.indexOf(':') === -1) path = resolve(path);
-  return new Promise((resolve) =>
-    fs.access(path, fs.constants.F_OK, (err) => {
-      if (err) err.code === 'ENOENT' ? resolve(0) : resolve(1);
-      else resolve(2);
-    })
-  );
-}
-
-/**
  * 文件重命名
  * @return 0 失败 1 成功
  */
@@ -158,7 +144,7 @@ export async function writeFile(
  */
 export async function appendFile(
   path: string,
-  data: string | Uint8Array,
+  data: string | Uint8Array | any,
   options?: { encoding?: BufferEncoding; mode?: number | string; flag?: string }
 ) {
   if (path.substr(0, 1) !== '/' && path.indexOf(':') === -1) path = resolve(path);

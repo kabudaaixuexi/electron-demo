@@ -5,6 +5,7 @@ import {
   WsResponse,
   WebSocketServer,
 } from "@nestjs/websockets";
+import { SocketService } from './socket.service';
 import { Observable, of } from "rxjs";
 import { map } from "rxjs/operators";
 import {Socket,Server} from 'socket.io'
@@ -24,6 +25,7 @@ interface DepNew {
 export class EventsGateway implements OnGatewayInit{
   // @WebSocketServer() server;
   @WebSocketServer() wss: Server;
+  private socketService = new SocketService()
   private logger: Logger = new Logger('chatGetWay')
   private computedHum:any[] = [] // 房间计数
   private depNews: DepNew[] = [] // 消息缓存
@@ -49,15 +51,21 @@ export class EventsGateway implements OnGatewayInit{
   // 房间
   @SubscribeMessage('chatToServer')
   handleMessage(client: Socket, state: any) {
-    // 加入消息缓存
-    this.depNews.push({
+    const filteState = {
       ...state,
       __hasread:[state.__sender],
       __date: Date.parse((new Date() as any))
-    })
+    }
+    // 加入消息缓存
+    this.depNews.push(filteState)
     this.wss.to(state.__source).emit('chatToClient',state)
     console.log(this.depNews);
     console.log('收到消息', state)
+    // 收到消息记录到文件
+    this.socketService.recordChat({
+      ...state,
+      __date: Date.parse((new Date() as any))
+    })
   }
 
   @SubscribeMessage('joinRoom')

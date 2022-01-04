@@ -16,7 +16,7 @@ export class UploadService {
 
     getFiles(where): any {
         return getFiles(process.env.__static + `/resources/${where}`).map((file) => {
-            return `http://192.168.5.85:25566/resources/${where}/${file}`
+            return `http://localhost:25566/resources/${where}/${file}`
         }).filter(httpFile => httpFile.indexOf('.DS_Store') === -1 )
     }
 

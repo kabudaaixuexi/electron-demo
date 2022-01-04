@@ -4,6 +4,7 @@ import { menuShow, menuOn, menuListenersRemove } from '@renderer/config/menu';
 import { ElMessage } from 'element-plus';
 const { ipcRenderer } = require("electron");
 import socket from '@renderer/utils/socket'
+import { useRouter } from 'vue-router'
 // components
 import API from '@renderer/api'
 type elType = 0 | 1 | 2 | 3
@@ -47,8 +48,9 @@ export default defineComponent({
           showDesk: false,
           queueList: []
         },
-        deskBackground: 'http://192.168.5.85:25566/resources/desk/_desk.jpeg'
+        deskBackground: 'http://localhost:25566/resources/desk/_desk.jpeg'
     })
+    const Router = useRouter()
     function MenuDom(element: HTMLElement) {
         if (!element) return;
         element.oncontextmenu = () => {
@@ -74,6 +76,11 @@ export default defineComponent({
           case 'desk-3':
             uploadUpdate()
             state['deskConfig'].showDesk = true
+            break;
+            case 'desk-4':
+              Router.push({
+                path:'/'
+              })
             break;
           default:;
         }

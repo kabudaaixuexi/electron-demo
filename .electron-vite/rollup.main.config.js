@@ -1,10 +1,10 @@
 const path = require('path')
 const { nodeResolve } = require('@rollup/plugin-node-resolve')
 const commonjs = require('@rollup/plugin-commonjs')
-const esbuild = require('rollup-plugin-esbuild')
+const esbuild = require('rollup-plugin-esbuild').default
 const alias = require('@rollup/plugin-alias')
 const json = require('@rollup/plugin-json')
-const obfuscator = require('rollup-plugin-obfuscator');
+const obfuscator = require('rollup-plugin-obfuscator').default
 
 module.exports = (env = 'production') => {
   return {

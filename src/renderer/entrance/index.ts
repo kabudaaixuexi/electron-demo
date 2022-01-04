@@ -1,17 +1,23 @@
-import { ElConfigProvider } from "element-plus"
-import { i18n } from "../i18n";
-const i18nt = i18n.global.t
-import { defineComponent, onMounted } from 'vue';
+import { defineComponent, onMounted,reactive,toRefs } from "vue";
+import menuCommon from "@renderer/components/MenuCommon/index.vue"
+import { useRoute, useRouter } from 'vue-router'
 // import { keepAliveData } from '@renderer/store';
 
+
 export default defineComponent({
-    components: {
-    },
-    setup() {
-        onMounted(() => {
-        });
-        return { 
-            
-         };
-    }
+  components: {
+    menuCommon
+  },
+  setup() {
+    const state = reactive({
+    })
+    
+    onMounted(() => {
+      console.log("onMounted");
+    });
+    return {
+        ...toRefs(state),
+        route:useRoute()
+    };
+  },
 });

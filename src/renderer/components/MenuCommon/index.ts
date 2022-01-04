@@ -1,23 +1,32 @@
 import { defineComponent, h, onMounted, onUnmounted, reactive, toRefs } from 'vue';
-import useMove from '@renderer/mixins/drag'
-import { menuShow, menuOn, menuListenersRemove } from '@renderer/config/menu';
 import { ElMessage } from 'element-plus';
+import { useRouter } from 'vue-router'
 const { ipcRenderer } = require("electron");
-import socket from '@renderer/utils/socket'
 
 export default defineComponent({
   setup() {
     const state = reactive({
-        isReset : true
+        isReset : true,
+        open:false
     })
-
+    const menuChange = () =>{
+      state.open = !state.open
+    }
+    const Router = useRouter()
+    const RouterTo = (path) => {
+      Router.push({
+        path
+      })
+    }
     onMounted(() => {
 
     })
     onUnmounted(() => { 
     })
     return { 
-      ...toRefs(state)
+      ...toRefs(state),
+      menuChange,
+      RouterTo
     };
   }
 });

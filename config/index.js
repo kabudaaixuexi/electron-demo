@@ -9,7 +9,7 @@ module.exports = {
     env: require('./dev.env'),
     removeElectronJunk: true,
     chineseLog: false,
-    port: 9080,
+    port: 8091,
   },
   DllFolder: '',
   HotUpdateFolder: 'update',

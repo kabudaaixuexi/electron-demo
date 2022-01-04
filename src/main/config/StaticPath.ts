@@ -16,4 +16,6 @@ export const loadingURL = process.env.NODE_ENV === 'development' ? `http://local
 export const lib = process.env.__lib
 export const updateFolder = process.env.__updateFolder
 export const nestAssetsUrl = process.env.NODE_ENV === 'development' ? `static` : join(__dirname, '..', 'renderer').replace(/\\/g, '\\\\')
+// 写入聊天日志的地址
+export const nestRecordChatUrl = process.env.NODE_ENV === 'development' ? `static/recordlog` : join(__dirname, '..', 'renderer/recordlog').replace(/\\/g, '\\\\')
 export const nestEnginesUrl = process.env.NODE_ENV === 'development' ? `static` : join(__dirname, '..', 'renderer').replace(/\\/g, '\\\\')

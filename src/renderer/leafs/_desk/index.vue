@@ -29,7 +29,7 @@
                 <article class="action">
                     <el-upload
                         class="upload"
-                        action="http://192.168.5.85:25566/upload"
+                        action="http://localhost:25566/upload"
                         multiple
                         :limit="9"
                         :on-success="uploadSuccess"
@@ -57,7 +57,7 @@
     left: 0;
     top: 0;
     filter:blur(5px) contrast(.8);
-    z-index: 0;
+    z-index: -1;
 }
 .desk_container {
     color: $color-primary-main;

@@ -1,12 +1,12 @@
 <template>
     <section v-if="loginDialog">
-        <img class="background" :src="'http://192.168.5.85:25566/resources/chat/background.jpg'" alt="">
+        <img class="background" :src="'http://localhost:25566/resources/chat/background.jpg'" alt="">
     </section>
     <template v-else>
     
     <section class="_chat_identity">
         <nav @click="userClick">
-            <img class="identity_user" :src="storeStateChat['userinfo'].arturl || 'http://192.168.5.85:25566/assets/user.png'">
+            <img class="identity_user" :src="storeStateChat['userinfo'].arturl || 'http://localhost:25566/assets/user.png'">
         </nav>
         <el-tooltip
             v-for="(v, index) in identityList"
@@ -49,7 +49,7 @@
                 v-for="(v, __i) in currentRoom.data"
                 :key="__i">
                 <div class="new" v-if="storeStateChat['userinfo'].uid !== v.__sender">
-                    <img class="new_pic" :src="'http://192.168.5.85:25566/assets/user.png'" alt="">
+                    <img class="new_pic" :src="'http://localhost:25566/assets/user.png'" alt="">
                     <div class="new_con">
                         <div class="new_con_uid">{{v.__sender}}</div>
                         <div class="new_con_message">
@@ -64,7 +64,7 @@
                             <span>{{v.__message.__conn}}</span>
                         </div>
                     </div>
-                    <img class="new_pic" :src="storeStateChat['userinfo'].arturl || 'http://192.168.5.85:25566/assets/user.png'" alt="">
+                    <img class="new_pic" :src="storeStateChat['userinfo'].arturl || 'http://localhost:25566/assets/user.png'" alt="">
                 </div>
             </div>
         </article>

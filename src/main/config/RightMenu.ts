@@ -48,6 +48,13 @@ ipcMain.on('menu-show-desk', (event, menutype) => {
             click: () => {
                 event.sender.send('menu-back', 'desk-3');
             }
+        },
+        {
+            label: '返回微前端模式',
+            // icon: nativeImage.createFromPath(join(__dirname, `../${csh}`)),
+            click: () => {
+                event.sender.send('menu-back', 'desk-4');
+            }
         }
     ];
     const menu = Menu.buildFromTemplate(template);
