@@ -1,7 +1,7 @@
 <template>
   <section class="menu-common">
     <article class="menu-common-change">
-      <div  @click="menuChange">{{open? '展开':'收起'}}</div>
+      <!-- <div  @click="menuChange">{{open? '展开':'收起'}}</div> -->
       <div @click="RouterTo('/desk')">{{open? '':'桌面模式'}}</div>
     </article>
     <el-menu
@@ -11,16 +11,16 @@
       router
     >
       <el-menu-item index="/">
-        <el-icon><icon-menu />默</el-icon>
-        <template #title>认</template>
+        <el-icon><icon-menu /></el-icon>
+        <template #title>默认</template>
       </el-menu-item>
       <el-menu-item index="/basesub/sub-react">
-        <el-icon><document />s</el-icon>
-        <template #title>ub-react</template>
+        <el-icon><document /></el-icon>
+        <template #title>sub-react</template>
       </el-menu-item>
       <el-menu-item index="/basesub/sub-react2">
-        <el-icon><setting />s</el-icon>
-        <template #title>ub-react2</template>
+        <el-icon><setting /></el-icon>
+        <template #title>sub-react2</template>
       </el-menu-item>
     </el-menu>
   </section>

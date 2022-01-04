@@ -9,7 +9,7 @@ const routes: Array<RouteRecordRaw> = [
     // ] },
     ...subAppRoutes,
     { path: '/:pathMatch(.*)*', component: () => import("@renderer/leafs/404.vue") },
-    { path: '/', name: '默认', component: () => import("@renderer/leafs/_index/index.vue") },
+    { path: '/', name: '默认', component: () => import("@renderer/leafs/_desk/index.vue") },
     { path: '/desk', name: '桌面', component: () => import('@renderer/leafs/_desk/index.vue'), meta: { title: '我的桌面' } },
     { path: '/chat', name: '聊天', component: () => import('@renderer/leafs/_chat/index.vue'), meta: { title: '聊聊天吧' } },
 ]
