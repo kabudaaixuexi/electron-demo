@@ -1,6 +1,6 @@
 {
   "uid": "SadFish",
-  "noteid": "l16m9zp0",
+  "noteid": "l16m7391",
   "subtitle": "",
   "vNode": {
     "_tag": "article",
@@ -10,28 +10,30 @@
       "class": "notepad_sidebar_cont"
     },
     "_type": 1,
-    "children": []
+    "children": [
+      {
+        "_tag": "font",
+        "_data": {
+          "size": "2"
+        },
+        "_type": 1,
+        "children": [
+          {
+            "_value": "scwqwqwq哈",
+            "_type": 3,
+            "children": []
+          },
+          {
+            "_value": "哈",
+            "_type": 3,
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "lock": false,
   "lockValue": "",
-  "latestTime": "2022-03-26"
-}⚡︎
-{
-  "uid": "SadFish",
-  "vNode": {
-    "children": [],
-    "_data": {
-      "contenteditable": "true",
-      "allowdrop": "true",
-      "class": "notepad_sidebar_cont"
-    },
-    "_tag": "article",
-    "_type": 1
-  },
-  "subtitle": "",
-  "lockValue": "",
-  "lock": false,
-  "noteid": "l16m7391",
   "latestTime": "2022-03-26"
 }⚡︎
 {

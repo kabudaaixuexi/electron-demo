@@ -27,24 +27,32 @@ interface fontSize  {
 }
 export const fontSizes:fontSize[] = [
     {
-        name: '文字的大小是12px',
-        value: 12
+        name: '1 字之师',
+        value: 1
     },
     {
-        name: '文字的大小是14px',
-        value: 14
+        name: '2 全其美',
+        value: 2
     },
     {
-        name: '文字的大小是16px',
-        value: 16
+        name: '3 字写易',
+        value: 3
     },
     {
-        name: '文字的大小是20px',
-        value: 20
+        name: '4 方云扰',
+        value: 4
     },
     {
-        name: '文字的大小是24px',
-        value: 24
+        name: '5 方杂厝',
+        value: 5
+    },
+    {
+        name: '6 出冰花',
+        value: 6
+    },
+    {
+        name: '7 步之才',
+        value: 7
     }
 ]
 interface backColor  {

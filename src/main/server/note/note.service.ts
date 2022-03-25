@@ -6,14 +6,14 @@ import { getTime, getUuiD } from '../__modular/utils';
 @Injectable()
 export class NoteService {
     async getNoteList(state): Promise<any> {
-        const data = await readFile(nestRecordNoteUrl + `/${state.uid}.json`)
+        const data: any = await readFile(nestRecordNoteUrl + `/${state.uid}.json`)
         return data == 0 ? [] : data.trim().split('⚡︎').filter(i => !!i).map(i => JSON.parse(i))
     }
 
     async addNote(state): Promise<any>  {
         state.noteid = getUuiD()
         state.latestTime = getTime()
-        let data = await readFile(nestRecordNoteUrl + `/${state.uid}.json`)
+        let data: any = await readFile(nestRecordNoteUrl + `/${state.uid}.json`)
         data = data == 0 ? [] : data.trim().split('⚡︎').filter(i => !!i).map(i => JSON.parse(i))
         data.unshift(state) 
         data = data.map(i => JSON.stringify(i, null, 2)).join('⚡︎\n')
@@ -21,7 +21,7 @@ export class NoteService {
     }
 
     async editNote(state):  Promise<any>  {
-        let data = await readFile(nestRecordNoteUrl + `/${state.uid}.json`)
+        let data: any = await readFile(nestRecordNoteUrl + `/${state.uid}.json`)
         data = data == 0 ? [] : data.trim().split('⚡︎').filter(i => !!i).map(i => JSON.parse(i))
         data = data.map(i => {
             // i.latestTime = getTime()
@@ -34,7 +34,7 @@ export class NoteService {
     }
 
     async removeNote(state): Promise<any> {
-        let data = await readFile(nestRecordNoteUrl + `/${state.uid}.json`)
+        let data: any = await readFile(nestRecordNoteUrl + `/${state.uid}.json`)
         data = data == 0 ? [] : data.trim().split('⚡︎').filter(i => !!i).map(i => JSON.parse(i))
         data = data.filter(i => i.noteid != state.noteid).map(i => JSON.stringify(i, null, 2)).join('⚡︎\n')
         rewriteFile(nestRecordNoteUrl + `/${state.uid}.json`, data)
