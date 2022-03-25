@@ -1,0 +1,24 @@
+{
+  "uid": "一颗豌豆芽",
+  "noteid": "kyofzuj8",
+  "subtitle": "飒飒飒飒",
+  "vNode": {
+    "_tag": "article",
+    "_data": {
+      "contenteditable": true,
+      "allowdrop": "true",
+      "class": "notepad_sidebar_cont"
+    },
+    "_type": 1,
+    "children": [
+      {
+        "_value": "飒飒飒",
+        "_type": 3,
+        "children": []
+      }
+    ]
+  },
+  "lock": true,
+  "lockValue": "000000",
+  "latestTime": "2022-01-21"
+}

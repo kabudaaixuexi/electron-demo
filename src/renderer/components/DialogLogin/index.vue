@@ -2,7 +2,10 @@
 	<el-dialog
         v-model="dialogVisible"
         title="请先登录"
-        :modal="false"
+        :modal="true"
+        :show-close="false"
+        :close-on-press-escape="false"
+        :close-on-click-modal="false"
         width="30%"
     >
         <el-autocomplete

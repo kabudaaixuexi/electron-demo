@@ -1,7 +1,8 @@
 import { defineComponent, nextTick, ref, onMounted, onUnmounted, reactive, toRefs, inject, computed } from 'vue';
-import dialogChatLogin from '@renderer/components/Dialog_Chat_Login/index.vue';
+import dialogLogin from '@renderer/components/DialogLogin/index.vue';
 import { ElMessage } from 'element-plus';
 import socket from '@renderer/utils/socket'
+import moon from '@renderer/store'
 
 enum __opt {
   '用户' = 1,
@@ -34,7 +35,7 @@ interface FaceChatroom {
 const identityList:FaceIdentity[] = [
   {
     __opt: __opt['聊天'],
-    __url_default: 'http://192.168.5.85:25566/assets/chat.png',
+    __url_default: 'http://localhost:25566/assets/chat.png',
     __class: 'identity_chat',
     __describe: '聊天',
     data: {}
@@ -58,11 +59,9 @@ const chatroomList:FaceChatroom[] = [
 ]
 export default defineComponent({
   components:{
-    dialogChatLogin
+    dialogLogin
   },
   setup() {
-    const storeStateChat = inject('chat')
-    console.log(storeStateChat);
     const state = reactive({
       loginDialog: true,
       //
@@ -71,7 +70,17 @@ export default defineComponent({
       currentRoomIndex: 0,
       newInput:'',
       messageList: [],
-      currentanimeid: null
+      currentanimeid: null,
+      //
+      userInfo: moon.$_getData('userInfo')
+    })
+    console.log(moon,'moon');
+    
+    moon.$_watch('userInfo',(new_val,old_val)=>{
+      console.log(new_val,'new_val-userInfo');
+      console.log(old_val,'old_val-userInfo')
+      console.log('chat')
+      state.userInfo = new_val
     })
     const currentRoom:any = computed(()=>{
       return state.chatroomList[state.currentRoomIndex];
@@ -79,7 +88,7 @@ export default defineComponent({
 
     const sendNew = () => {
       if (state.newInput === '') { return }
-      socket.emit('chatToServer', { __sender: storeStateChat['userinfo'].uid, __message: {
+      socket.emit('chatToServer', { __sender: state.userInfo['uid'], __message: {
         __type: 'text',
         __conn: state.newInput,
         __nnew: true
@@ -111,7 +120,7 @@ export default defineComponent({
     onMounted(() => {
       socket.on('chatToClient', (data) => {
         console.log(data, '消息来了');
-        if (data.__sender === storeStateChat['userinfo'].uid) { data.__message.__nnew = false }
+        if (data.__sender === state.userInfo['uid']) { data.__message.__nnew = false }
         state.chatroomList.forEach((v) => {
           if (v.__source === data.__source) {v.__latest = data.__message}
         })
@@ -148,14 +157,14 @@ export default defineComponent({
     onUnmounted(() => {
       // 全部离开
       state.chatroomList.map(v => {
-        socket.emit('leaveRoom', { __sender: storeStateChat['userinfo'].uid, __source: v.__source });
+        socket.emit('leaveRoom', { __sender: state.userInfo['uid'], __source: v.__source });
       })
     })
     const changeLoginDialog = (e) => {
       if (!e) {
         // 全部加入
         state.chatroomList.map(v => {
-          socket.emit('joinRoom', { __sender: storeStateChat['userinfo'].uid, __source: v.__source });
+          socket.emit('joinRoom', { __sender: state.userInfo['uid'], __source: v.__source });
         })
       }
       state['loginDialog'] = e
@@ -163,7 +172,7 @@ export default defineComponent({
     onUnmounted(() => { 
     })
     return { 
-      ...toRefs(state),storeStateChat,currentRoom,
+      ...toRefs(state),currentRoom,
       sendNew,changeSource,changeLoginDialog
     };
   }

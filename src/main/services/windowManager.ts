@@ -3,7 +3,7 @@ import config from '@config/index'
 import menuconfig from '../config/menu'
 import DownloadUpdate from './downloadFile'
 import Update from './checkupdate';
-import { app, BrowserWindow, Menu, dialog } from 'electron'
+import { app, BrowserWindow, Menu, dialog,globalShortcut } from 'electron'
 import { winURL, loadingURL } from '../config/StaticPath'
 
 class MainInit {
@@ -41,12 +41,41 @@ class MainInit {
         contextIsolation: false,
         nodeIntegration: true,
         webSecurity: false,
+        enableRemoteModule: true, 
         // 如果是开发模式可以使用devTools
         devTools: process.env.NODE_ENV === 'development',
         // devTools: true,
         // 在macos中启用橡皮动画
         scrollBounce: process.platform === 'darwin'
       }
+    })
+    // 修复快捷键
+    app.on('browser-window-focus', () => {
+      console.log('electron获取焦点');
+      globalShortcut.register('CommandOrControl+C', () => {
+        // Do stuff when Y and either Command/Control is pressed.
+        this.mainWindow.webContents.send('CommandOrControl+C')
+      })
+      globalShortcut.register('CommandOrControl+V', () => {
+        // Do stuff when Y and either Command/Control is pressed.
+        this.mainWindow.webContents.send('CommandOrControl+V')
+      })
+      globalShortcut.register('CommandOrControl+X', () => {
+        // Do stuff when Y and either Command/Control is pressed.
+        this.mainWindow.webContents.send('CommandOrControl+X')
+      })
+      globalShortcut.register('CommandOrControl+A', () => {
+        // Do stuff when Y and either Command/Control is pressed.
+        this.mainWindow.webContents.send('CommandOrControl+A')
+      })
+      globalShortcut.register('CommandOrControl+Z', () => {
+        // Do stuff when Y and either Command/Control is pressed.
+        this.mainWindow.webContents.send('CommandOrControl+Z')
+      })
+    })
+    app.on('browser-window-blur', () => {
+      console.log('electron失去焦点');
+      globalShortcut.unregisterAll()
     })
     // 赋予模板
     const menu = Menu.buildFromTemplate(menuconfig as any)

@@ -6,7 +6,7 @@
     
     <section class="_chat_identity">
         <nav @click="userClick">
-            <img class="identity_user" :src="storeStateChat['userinfo'].arturl || 'http://localhost:25566/assets/user.png'">
+            <img class="identity_user" :src="userInfo['arturl'] || 'http://localhost:25566/assets/user.png'">
         </nav>
         <el-tooltip
             v-for="(v, index) in identityList"
@@ -45,10 +45,10 @@
         </article>
         <article class="specific_con">
             <div
-                :class="{specific_new: storeStateChat['userinfo'].uid === v.__sender, outher:storeStateChat['userinfo'].uid !== v.__sender, newanime: currentanimeid === v.__message.__conn}"
+                :class="{specific_new: userInfo['uid'] === v.__sender, outher:userInfo['uid'] !== v.__sender, newanime: currentanimeid === v.__message.__conn}"
                 v-for="(v, __i) in currentRoom.data"
                 :key="__i">
-                <div class="new" v-if="storeStateChat['userinfo'].uid !== v.__sender">
+                <div class="new" v-if="userInfo['uid'] !== v.__sender">
                     <img class="new_pic" :src="'http://localhost:25566/assets/user.png'" alt="">
                     <div class="new_con">
                         <div class="new_con_uid">{{v.__sender}}</div>
@@ -64,7 +64,7 @@
                             <span>{{v.__message.__conn}}</span>
                         </div>
                     </div>
-                    <img class="new_pic" :src="storeStateChat['userinfo'].arturl || 'http://localhost:25566/assets/user.png'" alt="">
+                    <img class="new_pic" :src="userInfo.arturl || 'http://localhost:25566/assets/user.png'" alt="">
                 </div>
             </div>
         </article>
@@ -81,8 +81,8 @@
         </article>
     </section>
     </template>
-    <!-- chat登陆弹窗 -->
-    <dialogChatLogin 
+    <!-- 登陆弹窗 -->
+    <dialogLogin 
         :dialogVisible="loginDialog"
         @DialogVisible="changeLoginDialog"
         />

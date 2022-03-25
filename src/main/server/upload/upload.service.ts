@@ -5,14 +5,25 @@ import { createWriteStream } from 'fs';
 
 @Injectable()
 export class UploadService {
-    upload(files, body) : Promise<any> | any {
+    upload(files, path) : Promise<any> | any {
         console.log(files,'files');
-        console.log(body,'body');
+        console.log(path,'body');
         files.map((file, index) => {
-            createWriteStream(`${process.env.__static}/resources/desk/${file.originalname}`).write(file.buffer);
+            createWriteStream(`${process.env.__static}/resources/${path}/${file.originalname}`).write(file.buffer);
         })
-        return '上传成功';
+        if (path == 'note') {
+            return `http://localhost:25566/resources/${path}/${files[0].originalname}`;
+        }else {
+            return '上传成功'
+        }
     }
+
+    // getFile(path, name): any {
+    //     console.log(name,'name');
+    //     return getFiles(process.env.__static + `/resources/${path}`).filter((file) => {
+    //         return file == name
+    //     })[0] ? `http://localhost:25566/resources/${path}/${name}` : ''
+    // }
 
     getFiles(where): any {
         return getFiles(process.env.__static + `/resources/${where}`).map((file) => {

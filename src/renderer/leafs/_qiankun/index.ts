@@ -1,15 +1,20 @@
 import { defineComponent, inject, onMounted, onUnmounted, reactive, ref, toRefs, getCurrentInstance } from 'vue';
-import { ElMessage } from 'element-plus';
+import menuCommon from "@renderer/components/MenuCommon/index.vue"
+import { useRouter } from 'vue-router'
 
 
 export default defineComponent({
   components: {
+    menuCommon
   },
   setup() {    
+    const Router = useRouter()
     const state = reactive({
        
     })
-
+    Router.push({
+      path:'/qiankun/sub-react'
+    })
     
     onMounted(() => {
     })

@@ -9,16 +9,16 @@ let loadingInstance = null
 // 设置请求发送之前的拦截器
 serves.interceptors.request.use(config => {
   // 设置发送之前数据需要做什么处理
-  loadingInstance = ElLoading.service({
-    text: '加载中'
-  })
+  // loadingInstance = ElLoading.service({
+  //   text: '加载中'
+  // })
   return config
 }, err => Promise.reject(err))
 
 // 设置请求接受拦截器
 serves.interceptors.response.use(res => {
   // 设置接受数据之后，做什么处理
-  loadingInstance.close()
+  // loadingInstance.close()
   if (res.data.statusCode !== 200) {
     ElMessage.error(res.data.message)
   }

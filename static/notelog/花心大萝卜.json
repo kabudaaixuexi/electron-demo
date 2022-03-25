@@ -1,0 +1,5707 @@
+{
+  "uid": "花心大萝卜",
+  "vNode": {
+    "children": [],
+    "_data": {
+      "contenteditable": "true",
+      "allowdrop": "true",
+      "class": "notepad_sidebar_cont"
+    },
+    "_tag": "article",
+    "_type": 1
+  },
+  "subtitle": "",
+  "lockValue": "",
+  "lock": false,
+  "noteid": "kyoloei7",
+  "latestTime": "2022-01-22"
+}⚡︎
+{
+  "uid": "花心大萝卜",
+  "vNode": {
+    "children": [],
+    "_data": {
+      "contenteditable": "true",
+      "allowdrop": "true",
+      "class": "notepad_sidebar_cont"
+    },
+    "_tag": "article",
+    "_type": 1
+  },
+  "subtitle": "",
+  "lockValue": "",
+  "lock": false,
+  "noteid": "kyoloe0z",
+  "latestTime": "2022-01-22"
+}⚡︎
+{
+  "uid": "花心大萝卜",
+  "vNode": {
+    "children": [],
+    "_data": {
+      "contenteditable": "true",
+      "allowdrop": "true",
+      "class": "notepad_sidebar_cont"
+    },
+    "_tag": "article",
+    "_type": 1
+  },
+  "subtitle": "",
+  "lockValue": "",
+  "lock": false,
+  "noteid": "kyolodhb",
+  "latestTime": "2022-01-22"
+}⚡︎
+{
+  "uid": "花心大萝卜",
+  "vNode": {
+    "children": [],
+    "_data": {
+      "contenteditable": "true",
+      "allowdrop": "true",
+      "class": "notepad_sidebar_cont"
+    },
+    "_tag": "article",
+    "_type": 1
+  },
+  "subtitle": "",
+  "lockValue": "",
+  "lock": false,
+  "noteid": "kyolod2n",
+  "latestTime": "2022-01-22"
+}⚡︎
+{
+  "uid": "花心大萝卜",
+  "noteid": "kyo3qgym",
+  "subtitle": "csacascascsa",
+  "vNode": {
+    "_tag": "article",
+    "_data": {
+      "contenteditable": false,
+      "allowdrop": "true",
+      "class": "notepad_sidebar_cont"
+    },
+    "_type": 1,
+    "children": [
+      {
+        "_tag": "font",
+        "_data": {
+          "color": "#f1e7e7"
+        },
+        "_type": 1,
+        "children": [
+          {
+            "_value": "csacsacsacsacsacasc爱上撒擦手抽筋啊是经常茶水茶水吃洒超级飒缓存就撒谎超级飒吃洒机场巴士菊花茶是茶水csa擦拭擦拭课程撒擦拭从撒娇好cascjascjashcjascbjsahcjsahbchjasbjhcbsajcscscsacascsacsacascascascascsavhgh",
+            "_type": 3,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "lockValue": "123456",
+  "lock": false,
+  "latestTime": "2022-01-22"
+}⚡︎
+{
+  "uid": "花心大萝卜",
+  "noteid": "kylouu2a",
+  "subtitle": "test",
+  "vNode": {
+    "_tag": "article",
+    "_data": {
+      "contenteditable": "true",
+      "allowdrop": "true",
+      "class": "notepad_sidebar_cont"
+    },
+    "_type": 1,
+    "children": []
+  },
+  "lock": false,
+  "latestTime": "2022-01-22"
+}⚡︎
+{
+  "uid": "花心大萝卜",
+  "noteid": "kyloutpi",
+  "subtitle": "package",
+  "vNode": {
+    "_tag": "article",
+    "_data": {
+      "contenteditable": "true",
+      "allowdrop": "true",
+      "class": "notepad_sidebar_cont"
+    },
+    "_type": 1,
+    "children": [
+      {
+        "_value": "c sa c sa c sa",
+        "_type": 3,
+        "children": []
+      }
+    ]
+  },
+  "lock": false,
+  "latestTime": "2022-01-22"
+}⚡︎
+{
+  "uid": "花心大萝卜",
+  "noteid": "kyloutjb",
+  "subtitle": "Electron学习",
+  "vNode": {
+    "_tag": "article",
+    "_data": {
+      "contenteditable": "true",
+      "allowdrop": "true",
+      "class": "notepad_sidebar_cont"
+    },
+    "_type": 1,
+    "children": [
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "<style>",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    span {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "        --default:rg",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          },
+          {
+            "_tag": "span",
+            "_data": {
+              "style": "color: rgb(196, 167, 228); font-family: STKaiti;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "ba(100,100,225,1);",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    }",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    .color1 {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "        color: var(--default);",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    } ",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "</style>",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "<span class=\"color1\">Electron简单学习</span>",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "===",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "> 使用 JavaScript，HTML 和 CSS 构建跨平台的桌面应用程序",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          },
+          {
+            "_tag": "iframe",
+            "_data": {
+              "width": "300px",
+              "height": "400px",
+              "src": "blob:http://localhost:8091/ed672e9a-66aa-443b-a2f5-4f0fab87e314",
+              "frameborder": "0"
+            },
+            "_type": 1,
+            "children": []
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "目录",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "<ul>",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    <li>Electron介绍</li>",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    <li>主进程介绍</li>",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    <li>渲染进程介绍</li>",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    <li>开发一个Electron桌面应用</li>",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    <li>总结</li>",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "</ul>",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "***",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "### **介绍**",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "*<span class=\"color1\">Electron是什么？</span>*",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "Electron 是Github开发的一个框架，它依赖于Node.js.Node.js（V8）允许使用JavaScript语言开发服务端程序和终端程序(命令行程序),Electron 本身其实也是 Node.js 的一个第三方项目。",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "*<span class=\"color1\">Electron有什么特点？</span>*",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "由于Electron是基于Node.js的，也就是说，Electron可以调用大量的Node.js API。",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "桌面应用可以访问本地资源，各种硬件以及OS本身的资源，Docker、touchbar，Electron彻底避免了浏览器兼容问题，因为Electron只有一个浏览器内核chromium",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "### **主进程介绍**",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "+ 在 Electron 里，运行 package.json 里 main 脚本的进程被称为主进程（Main Process）",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "+ 主进程通过创建浏览器窗口实例来创建网页：每一个浏览窗口实例在其渲染过程中运行网页",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "+ 当一个 BrowserWindow 实例被摧毁时，对应的渲染过程也被终止",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "主进程管理所有网页及其对应的渲染过程",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "### **渲染进程介绍**",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "+ 由于 Electron 使用 Chromium 来展示页面，所以 Chromium 的多进程结构也被充分利用：每个 Electron 的页面都在运行着自己的进程，这样的进程我们称之为渲染进程（Renderer Process）",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  ",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "+ 渲染进程只能管理单个的网页，在一个渲染过程中崩溃不会影响其他渲染过程",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "+ 渲染进程通过 IPC 与主进程通信，在网页上执行 GUI 操作；由于安全考虑和可能的资源泄漏，直接从渲染器过程中调用与本地 GUI 有关的 API 会受到限制",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "两者之间的通信可以通过进程间通信模块进行：<span class=\"color1\">ipcMain</span> 和 <span class=\"color1\">ipcRenderer</span> ",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "```",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "// \b举个进程通信的例子",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "/*",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "* 渲染进程",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "*/",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "import { IpcRendererEvent } from 'electron';",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "const { ipcRenderer } = require(\"electron\");",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "/**",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": " * 打开menu",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": " */",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "export function menuShow(menutype:string) {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    ipcRenderer.send(`menu-show-${menutype}`);",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "}",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "/**",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": " * menu 监听反馈",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": " */",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "export function menuOn(listener: (event: IpcRendererEvent, args: any) => void) {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    ipcRenderer.on('menu-back', listener);",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "}",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "/**",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": " * menu 关闭监听",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": " */",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "export function menuListenersRemove() {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    ipcRenderer.removeAllListeners('menu-back');",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "}",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "/*",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "* 主进程",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "*/",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "import { ipcMain } from 'electron';",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "ipcMain.on('menu-show-desk', (event, menutype) => {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    const template: Array<MenuItemConstructorOptions | MenuItem> = [",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "        {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "            label: '复原桌面',",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "            click: () => {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "                event.sender.send('menu-back', 'desk-1');",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "            }",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "        },",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "        {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "            label: '保存当前桌面排列',",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "            click: () => {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "                event.sender.send('menu-back', 'desk-2');",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "            }",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "        },",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "        {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "            label: '更改桌面背景...',",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "            click: () => {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "                event.sender.send('menu-back', 'desk-3');",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "            }",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "        }",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    ];",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    const menu = Menu.buildFromTemplate(template);",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    menu.popup({",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "        window: BrowserWindow.fromWebContents(event.sender)",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    });",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "})",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "```",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "### **创建应用程序**",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "+ 创建文件夹初始化electron库",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "```",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "mkdir electronDemo",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "cd electronDemo",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "npm init  // 入口文件设置为main.js",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "npm install electron --save-dev",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "touch main.js",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "```",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "+ main.js文件",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "```",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "const { app, BrowserWindow } = require('electron')",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": " ",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "function createWindow () {   ",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  // 创建浏览器窗口",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  const win = new BrowserWindow({",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    width: 800,",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    height: 600,",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    webPreferences: {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "      nodeIntegration: true",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    }",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  })",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": " ",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  // 并且为你的应用加载index.html",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  win.loadFile('index.html')",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": " ",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  // 打开开发者工具",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  win.webContents.openDevTools()",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "}",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": " ",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "// Electron会在初始化完成并且准备好创建浏览器窗口时调用这个方法",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "// 部分 API 在 ready 事件触发后才能使用。",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "app.whenReady().then(createWindow)",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": " ",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "//当所有窗口都被关闭后退出",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "app.on('window-all-closed', () => {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  // 在 macOS 上，除非用户用 Cmd + Q 确定地退出，",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  // 否则绝大部分应用及其菜单栏会保持激活。",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  if (process.platform !== 'darwin') {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    app.quit()",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  }",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "})",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": " ",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "app.on('activate', () => {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  // 在macOS上，当单击dock图标并且没有其他窗口打开时，",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  // 通常在应用程序中重新创建一个窗口。",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  if (BrowserWindow.getAllWindows().length === 0) {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    createWindow()",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  }",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "})",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": " ",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "// 您可以把应用程序其他的流程写在在此文件中",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "// 代码 也可以拆分成几个文件，然后用 require 导入",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "```",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "+ 根目录新建index.html",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "+ 在package.json文件中配置electron命令",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "```",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "\"scripts\": {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": " \"start\": \"electron .\",",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "}",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "```",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "+ 执行命令 npm run start 运行程序",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "+ 效果如图",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "  ",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "![blockchain](https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/550/format/webp \"electronDemo\")",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "+ 打包应用程序",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "```",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "// 安装electron-packager",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "npm install -g electron-packager",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "// 在package.json中配置打包命令",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "\"scripts\": {",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    \"start\": \"electron .\",",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "    \"pack\": \"electron-packager . myFirstElectron --win --out ./dist --arch=x64 --app-version=0.0.1 --electron-version=10.1.3\"",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "}",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "// 执行打包命令 npm run pack",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "```",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "packager特点：操作简单，打包后的目录就是程序的运行目录，相当于已经安装过，不用安装操作后才能运行",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "electron官方推荐Electron Forge，但是只能打包类型限制为当前开发系统下的可执行文件",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "推荐使用 [electron-builder](https://www.electron.build/ \"electronBuild\") ，自定义需要生成的安装器",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "### **总结**",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "Electron是一个使用 JavaScript、HTML 和 CSS 构建桌面应用程序的框架。 嵌入 Chromium 和 Node.js 到 二进制的 Electron 允许您保持一个 JavaScript 代码代码库并创建 跨平台应用",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "<strong>electron核心我们可以分成2个部分，主进程和渲染进程。主进程连接着操作系统和渲染进程，可以把它看做页面和计算机沟通的桥梁。渲染进程就是我们所熟悉前端环境了。只是载体改变了，从浏览器变成了window。传统的web环境我们是不能对用户的系统就行操作的，而electron相当于node环境，我们可以在项目里使用所有的node api 。简单理解为给web项目套上一个node环境的壳。</strong>",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "br",
+                "_data": {},
+                "_type": 1,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#c4a7e4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "[electron官网点击这里](https://www.electronjs.org/ \"electronBuild\")",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "lock": false,
+  "lockValue": "123456",
+  "latestTime": "2022-01-22"
+}⚡︎
+{
+  "uid": "花心大萝卜",
+  "noteid": "kylcsxpy",
+  "subtitle": "Npm发布记录",
+  "vNode": {
+    "_tag": "article",
+    "_data": {
+      "contenteditable": false,
+      "allowdrop": "true",
+      "class": "notepad_sidebar_cont"
+    },
+    "_type": 1,
+    "children": [
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p1",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 20px; line-height: normal;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "b",
+                "_data": {
+                  "style": ""
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_tag": "font",
+                    "_data": {
+                      "color": "#cfc6c6",
+                      "style": "",
+                      "face": "Hanzipen SC"
+                    },
+                    "_type": 1,
+                    "children": [
+                      {
+                        "_value": "Npm发布记录",
+                        "_type": 3,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p2",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "font",
+                "_data": {
+                  "color": "#cfc6c6",
+                  "face": "Hanzipen SC"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_value": "npm init",
+                    "_type": 3,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p2",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "font",
+                "_data": {
+                  "color": "#cfc6c6",
+                  "face": "Hanzipen SC"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_value": "配置tsc打包路径",
+                    "_type": 3,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p2",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "font",
+                "_data": {
+                  "color": "#cfc6c6",
+                  "face": "Hanzipen SC"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_value": "配置node命令",
+                    "_type": 3,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p3",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; min-height: 15px;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "font",
+                "_data": {
+                  "color": "#cfc6c6",
+                  "face": "Hanzipen SC"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_tag": "br",
+                    "_data": {},
+                    "_type": 1,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p2",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "font",
+                "_data": {
+                  "color": "#cfc6c6",
+                  "face": "Hanzipen SC"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_value": "npm adduser",
+                    "_type": 3,
+                    "children": []
+                  },
+                  {
+                    "_tag": "span",
+                    "_data": {
+                      "class": "Apple-converted-space"
+                    },
+                    "_type": 1,
+                    "children": [
+                      {
+                        "_value": "  ",
+                        "_type": 3,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "_value": "登陆npm",
+                    "_type": 3,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p2",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "font",
+                "_data": {
+                  "color": "#cfc6c6",
+                  "style": "",
+                  "face": "Hanzipen SC"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_value": "sudo npm publish --access=public ",
+                    "_type": 3,
+                    "children": []
+                  },
+                  {
+                    "_tag": "span",
+                    "_data": {
+                      "class": "s1",
+                      "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal;"
+                    },
+                    "_type": 1,
+                    "children": [
+                      {
+                        "_value": "发布",
+                        "_type": 3,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "lockValue": "123456",
+  "lock": false,
+  "latestTime": "2022-01-22"
+}⚡︎
+{
+  "uid": "花心大萝卜",
+  "noteid": "kylcsx81",
+  "subtitle": "react 混合应用开发",
+  "vNode": {
+    "_tag": "article",
+    "_data": {
+      "contenteditable": false,
+      "allowdrop": "true",
+      "class": "notepad_sidebar_cont"
+    },
+    "_type": 1,
+    "children": [
+      {
+        "_tag": "p",
+        "_data": {
+          "class": "p1",
+          "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+        },
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "style": "",
+              "color": "#dad4d4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "react 混合应用开发",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "p",
+        "_data": {
+          "class": "p1",
+          "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+        },
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#dad4d4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "vue 公众号 移动端开发",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "p",
+        "_data": {
+          "class": "p1",
+          "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+        },
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#dad4d4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "vue 原生微信 支付宝 云闪付小程序",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "p",
+        "_data": {
+          "class": "p1",
+          "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+        },
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#dad4d4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "koa nest 中间层 路由转发 权监 信息收集",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "p",
+        "_data": {
+          "class": "p1",
+          "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+        },
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#dad4d4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "uniapp taro vue ts 微信小程序",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "p",
+        "_data": {
+          "class": "p1",
+          "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+        },
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#dad4d4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "vue3 to b sass平台 订单来了 民宿经营",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "p",
+        "_data": {
+          "class": "p1",
+          "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+        },
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "color": "#dad4d4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_value": "react to b sass aics 工业数据 低代码",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_tag": "p",
+        "_data": {
+          "class": "p2",
+          "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+        },
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "font",
+            "_data": {
+              "face": "STKaiti",
+              "style": "",
+              "color": "#dad4d4"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "span",
+                "_data": {
+                  "class": "s1",
+                  "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal;"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_value": "electron ",
+                    "_type": 3,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "_value": "桌面应用",
+                "_type": 3,
+                "children": []
+              },
+              {
+                "_tag": "span",
+                "_data": {
+                  "class": "s1",
+                  "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal;"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_value": " ",
+                    "_type": 3,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "_value": "一键启动",
+                "_type": 3,
+                "children": []
+              },
+              {
+                "_tag": "span",
+                "_data": {
+                  "class": "s1",
+                  "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal;"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_value": " ",
+                    "_type": 3,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "_value": "静态资源打包上传",
+                "_type": 3,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "lock": false,
+  "latestTime": "2022-01-22"
+}⚡︎
+{
+  "uid": "花心大萝卜",
+  "noteid": "kylcsx1r",
+  "subtitle": "数组或者对象的常用方法",
+  "vNode": {
+    "_tag": "article",
+    "_data": {
+      "contenteditable": "true",
+      "allowdrop": "true",
+      "class": "notepad_sidebar_cont"
+    },
+    "_type": 1,
+    "children": [
+      {
+        "_tag": "font",
+        "_data": {
+          "face": "STKaiti",
+          "color": "#eeefdd"
+        },
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "br",
+            "_data": {},
+            "_type": 1,
+            "children": []
+          }
+        ]
+      },
+      {
+        "_tag": "div",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p2",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "b",
+                "_data": {},
+                "_type": 1,
+                "children": [
+                  {
+                    "_tag": "font",
+                    "_data": {
+                      "face": "STKaiti",
+                      "color": "#eeefdd"
+                    },
+                    "_type": 1,
+                    "children": [
+                      {
+                        "_value": "Array.filter",
+                        "_type": 3,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p2",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "font",
+                "_data": {
+                  "face": "STKaiti",
+                  "color": "#eeefdd"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_value": "const filterArr = [1, 2, 3, 4, 5] // 三个参数：遍历项 索引 数组本身 // 配合箭头函数，返回大于3的集合 const filterArr2 = filterArr.filter((num, index, arr) => num > 3) console.log(filterArr2) [ 4, 5 ]",
+                    "_type": 3,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p1",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; min-height: 15px;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "font",
+                "_data": {
+                  "face": "STKaiti",
+                  "color": "#eeefdd"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_tag": "br",
+                    "_data": {},
+                    "_type": 1,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p2",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "b",
+                "_data": {},
+                "_type": 1,
+                "children": [
+                  {
+                    "_tag": "font",
+                    "_data": {
+                      "face": "STKaiti",
+                      "color": "#eeefdd"
+                    },
+                    "_type": 1,
+                    "children": [
+                      {
+                        "_value": "Array.some",
+                        "_type": 3,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p2",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "font",
+                "_data": {
+                  "face": "STKaiti",
+                  "color": "#eeefdd"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_value": "const someArr = [false, true, false, true, false] // 三个参数：遍历项 索引 数组本身 // 配合箭头函数，只要有一个为true，就返回true，一个都true都没有，就返回false const someArr2 = someArr.some((bol, index, arr) => bol) console.log(someArr2) true",
+                    "_type": 3,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p1",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; min-height: 15px;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "font",
+                "_data": {
+                  "face": "STKaiti",
+                  "color": "#eeefdd"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_tag": "br",
+                    "_data": {},
+                    "_type": 1,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p2",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "b",
+                "_data": {},
+                "_type": 1,
+                "children": [
+                  {
+                    "_tag": "font",
+                    "_data": {
+                      "face": "STKaiti",
+                      "color": "#eeefdd"
+                    },
+                    "_type": 1,
+                    "children": [
+                      {
+                        "_value": "Array.every",
+                        "_type": 3,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p2",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "font",
+                "_data": {
+                  "face": "STKaiti",
+                  "color": "#eeefdd"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_value": "const everyArr = [false, true, false, true, false] // 三个参数：遍历项 索引 数组本身 // 配合箭头函数，需要所有为true，才返回true，否则返回false const everyArr2 = everyArr.every((bol, index, arr) => bol) console.log(everyArr2)",
+                    "_type": 3,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p1",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal; min-height: 15px;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "font",
+                "_data": {
+                  "face": "STKaiti",
+                  "color": "#eeefdd"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_tag": "br",
+                    "_data": {},
+                    "_type": 1,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p2",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "b",
+                "_data": {},
+                "_type": 1,
+                "children": [
+                  {
+                    "_tag": "font",
+                    "_data": {
+                      "face": "STKaiti",
+                      "color": "#eeefdd"
+                    },
+                    "_type": 1,
+                    "children": [
+                      {
+                        "_value": "AlloyFinger",
+                        "_type": 3,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_tag": "p",
+            "_data": {
+              "class": "p3",
+              "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: normal;"
+            },
+            "_type": 1,
+            "children": [
+              {
+                "_tag": "font",
+                "_data": {
+                  "face": "STKaiti",
+                  "style": "",
+                  "color": "#eeefdd"
+                },
+                "_type": 1,
+                "children": [
+                  {
+                    "_value": "手势库",
+                    "_type": 3,
+                    "children": []
+                  },
+                  {
+                    "_tag": "span",
+                    "_data": {
+                      "class": "s1",
+                      "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal;"
+                    },
+                    "_type": 1,
+                    "children": [
+                      {
+                        "_value": " ",
+                        "_type": 3,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "_value": "优点体积",
+                    "_type": 3,
+                    "children": []
+                  },
+                  {
+                    "_tag": "span",
+                    "_data": {
+                      "class": "s1",
+                      "style": "font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal;"
+                    },
+                    "_type": 1,
+                    "children": [
+                      {
+                        "_value": "-",
+                        "_type": 3,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "_value": "小简单",
+                    "_type": 3,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "lock": true,
+  "latestTime": "2022-01-22"
+}

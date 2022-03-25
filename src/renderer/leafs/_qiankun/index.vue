@@ -1,4 +1,5 @@
 <template>
+    <menu-common />
     <section id="container"></section>
 </template>
 <style lang="scss">

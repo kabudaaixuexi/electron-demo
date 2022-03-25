@@ -124,3 +124,10 @@ $color-fill-derived-08: mix(#fff, #000, 80%) !global;
 @mixin BR($br) {
     border-radius: $br;
 }
+
+// Overflow-text
+%OVT {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

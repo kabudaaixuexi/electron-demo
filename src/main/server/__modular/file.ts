@@ -86,7 +86,9 @@ export function readFile(path: string, options?: { encoding?: BufferEncoding; fl
   return new Promise((resolve) =>
     fs.readFile(path, options, (err, data) => {
       if (err) resolve(0);
-      resolve(data.toString());
+      else {
+        resolve(data?.toString());
+      }
     })
   );
 }
@@ -156,4 +158,19 @@ export async function appendFile(
       resolve(1);
     })
   );
+}
+
+export async function rewriteFile(
+  path: string,
+  data: string | Uint8Array | any,
+  options?: { encoding?: BufferEncoding; mode?: number | string; flag?: string }
+) {
+  return new Promise((resolve) =>
+  fs.writeFile(path, data, (err) => {
+    if (err) {
+      resolve(0);
+    }
+    resolve(1);
+  })
+)
 }

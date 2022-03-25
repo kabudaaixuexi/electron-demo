@@ -1,7 +1,7 @@
 <template>
     <img class="desk_background" :src="deskBackground" alt="">
     <section :ref="MenuDom" class="desk_container" v-if="isReset" >
-        <nav class="Eldrag deskI" v-for="(el) in faceList" :key="el" @dblclick.stop="openClick(el)">
+        <nav class="Eldrag deskI" v-for="(el) in programList" :key="el" @dblclick.stop="openClick(el)">
             <figure :style="{ backgroundImage:'url(' + el.icon + ')' }"></figure>
             <figcaption>{{ el.explain}}</figcaption>
         </nav>
@@ -29,7 +29,7 @@
                 <article class="action">
                     <el-upload
                         class="upload"
-                        action="http://localhost:25566/upload"
+                        action="http://localhost:25566/upload/desk"
                         multiple
                         :limit="9"
                         :on-success="uploadSuccess"
@@ -97,13 +97,16 @@
             }
             &:hover {
                 transition: .3s;
+                transform: scale(1.05);
                 box-shadow: 1px 1px 6px 1px $color-primary-derived-02;
             }
         }
         figcaption {
-            padding-bottom: 18px;
+            padding-bottom: 16px;
+            font-size: 15px;
             &:hover {
-                transition: 1s;
+                transition: .4s;
+                font-size: 16px;
                 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
             }
         }

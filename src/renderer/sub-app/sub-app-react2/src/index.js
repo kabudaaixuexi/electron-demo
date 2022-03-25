@@ -18,7 +18,7 @@ if (!window.__POWERED_BY_QIANKUN__) {
   render()
 }
 export async function bootstrap(props) {
-  console.log(props,'reactprops');
+  console.log(props,'reactprops2');
 }
 export async function mount() {
   console.log('react-sub create of mount');

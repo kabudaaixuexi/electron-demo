@@ -7,7 +7,7 @@
       "url": "http://127.0.0.1"
     }
   ],
-  "productName": "electron-vite-template",
+  "productName": "记事本",
   "appId": "org.sky.electron-vite-template",
   "directories": {
     "output": "build"

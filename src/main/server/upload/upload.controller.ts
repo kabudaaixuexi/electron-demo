@@ -4,14 +4,31 @@ import { UploadService } from './upload.service';
 
 @Controller('upload')
 export class UploadController {
-    @Post('')
+    @Post('desk')
     @UseInterceptors(AnyFilesInterceptor())
-    async uploadFiles(@UploadedFiles() files, @Body() body){
+    async uploadFilesDesk(@UploadedFiles() files, @Body() body){
         return {
             statusCode: 200,
-            data: await new UploadService().upload(files, body)
+            data: await new UploadService().upload(files, 'desk')
         }
     }
+    
+    @Post('note')
+    @UseInterceptors(AnyFilesInterceptor())
+    async uploadFilesNote(@UploadedFiles() files, @Body() body){
+        return {
+            statusCode: 200,
+            data: await new UploadService().upload(files, 'note')
+        }
+    }
+
+    // @Post('getFile')
+    // async getFile (@Body() body):Promise<any> {
+    //     return {
+    //         statusCode: 200,
+    //         data: await new UploadService().getFile(body['path'], body['name'])
+    //     }
+    // }
     
     @Post('getFiles')
     async getFiles (@Body() body):Promise<any> {

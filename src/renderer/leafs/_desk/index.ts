@@ -5,38 +5,10 @@ import { ElMessage } from 'element-plus';
 const { ipcRenderer } = require("electron");
 import socket from '@renderer/utils/socket'
 import { useRouter } from 'vue-router'
+import {programItem } from './type'
+import { programList } from './config'
 // components
 import API from '@renderer/api'
-type elType = 0 | 1 | 2 | 3
-interface DeskFaceList {
-    icon: string
-    explain: string
-    eltype: elType
-}
-const faceList:DeskFaceList[] = 
-[
-  {
-    icon: 'https://img2.baidu.com/it/u=3199979532,3289857039&fm=26&fmt=auto&gp=0.jpg',
-    explain: '聊吗',
-    eltype: 0
-  },
-  {
-    icon: 'https://img2.baidu.com/it/u=3199979532,3289857039&fm=26&fmt=auto&gp=0.jpg',
-    explain: 'Be',
-    eltype: 0
-  },
-  {
-    icon: 'https://img2.baidu.com/it/u=3199979532,3289857039&fm=26&fmt=auto&gp=0.jpg',
-    explain: 'Try',
-    eltype: 0
-  },
-  {
-    icon: 'https://img2.baidu.com/it/u=3199979532,3289857039&fm=26&fmt=auto&gp=0.jpg',
-    explain: 'Coo',
-    eltype: 0
-  }
-]
-
 
 export default defineComponent({
   components: {
@@ -98,9 +70,9 @@ export default defineComponent({
     const changeBG = (e) => {
       state.deskBackground = e
     }
-    const openClick = async (v: any) => {
-      socket.emit('identity', {name:'hey'})
-      ipcRenderer.invoke("open-win", { url: "/chat", title: v.explain});
+    const openClick = async (el: programItem) => {
+      const { programPath: url, explain: title, titleBarStyle } = el
+      ipcRenderer.invoke("open-win", { url, title,titleBarStyle});
     }
     onMounted(() => {
       const els:any = document.getElementsByClassName('Eldrag')
@@ -112,7 +84,7 @@ export default defineComponent({
     return { 
       MenuDom,
       openClick,uploadSuccess,changeBG,
-      faceList,
+      programList,
       ...toRefs(state)
     };
   }

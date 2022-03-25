@@ -1,4 +1,4 @@
-import { ipcMain, dialog, BrowserWindow } from 'electron'
+import { app, ipcMain, dialog, BrowserWindow, globalShortcut } from 'electron'
 import { winURL } from '../config/StaticPath'
 import { updater } from './HotUpdater'
 
@@ -43,7 +43,7 @@ export default {
     })
     ipcMain.handle('open-win', (event, arg) => {
       console.log(arg);
-      
+
       const ChildWin = new BrowserWindow({
         title: `${arg.title}` || `有疑问联系kaburda.163.com`,
         height: 595,
@@ -51,11 +51,13 @@ export default {
         width: 842,
         autoHideMenuBar: true,
         minWidth: 842,
+        titleBarStyle: arg.titleBarStyle || 'default',
         show: false,
         webPreferences: {
           nodeIntegration: true,
           contextIsolation: false,
           webSecurity: false,
+          enableRemoteModule: true,
           // 如果是开发模式可以使用devTools
           devTools: process.env.NODE_ENV === 'development',
           // devTools: true,
@@ -63,6 +65,40 @@ export default {
           scrollBounce: process.platform === 'darwin'
         }
       })
+      // 修复快捷键
+      app.on('browser-window-focus', () => {
+        console.log('electron获取焦点');
+        globalShortcut.register('CommandOrControl+C', () => {
+          // Do stuff when Y and either Command/Control is pressed.
+          ChildWin.webContents.send('CommandOrControl+C')
+        })
+        globalShortcut.register('CommandOrControl+V', () => {
+          // Do stuff when Y and either Command/Control is pressed.
+          ChildWin.webContents.send('CommandOrControl+V')
+        })
+        globalShortcut.register('CommandOrControl+X', () => {
+          // Do stuff when Y and either Command/Control is pressed.
+          ChildWin.webContents.send('CommandOrControl+X')
+        })
+        globalShortcut.register('CommandOrControl+A', () => {
+          // Do stuff when Y and either Command/Control is pressed.
+          ChildWin.webContents.send('CommandOrControl+A')
+        })
+        globalShortcut.register('CommandOrControl+Z', () => {
+          // Do stuff when Y and either Command/Control is pressed.
+          ChildWin.webContents.send('CommandOrControl+Z')
+        })
+      })
+      app.on('browser-window-blur', () => {
+        console.log('electron失去焦点');
+        globalShortcut.unregisterAll()
+      })
+      // ChildWin.blur = () => {
+      //   globalShortcut.unregisterAll()
+      // }
+      // ChildWin.close = () => {
+      //   globalShortcut.unregisterAll()
+      // }
       ChildWin.loadURL(winURL + `#${arg.url}`)
       ChildWin.webContents.once('dom-ready', () => {
         ChildWin.show()

@@ -1,24 +1,23 @@
 <template>
   <section class="menu-common">
     <article class="menu-common-change">
-      <!-- <div  @click="menuChange">{{open? '展开':'收起'}}</div> -->
-      <div @click="RouterTo('/desk')">{{open? '':'桌面模式'}}</div>
+      <div  @click="menuChange">{{open? '展开':'收起'}}</div>
     </article>
     <el-menu
-      default-active="/"
+      default-active="/qiankun/sub-react"
       class="el-menu-vertical-demo"
       :collapse="open"
       router
     >
-      <el-menu-item index="/">
+      <!-- <el-menu-item index="/">
         <el-icon><icon-menu /></el-icon>
         <template #title>默认</template>
-      </el-menu-item>
-      <el-menu-item index="/basesub/sub-react">
+      </el-menu-item> -->
+      <el-menu-item index="/qiankun/sub-react">
         <el-icon><document /></el-icon>
         <template #title>sub-react</template>
       </el-menu-item>
-      <el-menu-item index="/basesub/sub-react2">
+      <el-menu-item index="/qiankun/sub-react2">
         <el-icon><setting /></el-icon>
         <template #title>sub-react2</template>
       </el-menu-item>

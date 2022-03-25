@@ -18,10 +18,14 @@ if (!window.__POWERED_BY_QIANKUN__) {
   render()
 }
 export async function bootstrap(props) {
-  console.log(props,'reactprops');
+  console.log(props,'reactprops1');
 }
-export async function mount() {
-  console.log('react-sub create of mount');
+export async function mount(props) {
+  console.log(props, 'react-sub create of mount');
+  props.onGlobalStateChange((state, prev) => {
+    // state: 变更后的状态; prev 变更前的状态
+    console.log(state, prev,';;;;;');
+  });
   render()
 }
 export async function unmount() {
