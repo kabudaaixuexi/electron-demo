@@ -1,0 +1,20 @@
+{
+  "__sender": "TaskQueue",
+  "__message": {
+    "__type": "text",
+    "__conn": "awccwc",
+    "__nnew": true
+  },
+  "__source": "聊天室2",
+  "__date": 1648287031000
+},
+{
+  "__sender": "SadFish",
+  "__message": {
+    "__type": "text",
+    "__conn": "cawcawc",
+    "__nnew": true
+  },
+  "__source": "聊天室2",
+  "__date": 1648287036000
+},

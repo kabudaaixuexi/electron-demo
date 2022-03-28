@@ -1,0 +1,37 @@
+{
+  "uid": "Administrator",
+  "noteid": "l1ajbts6",
+  "subtitle": "",
+  "vNode": {
+    "_tag": "article",
+    "_data": {
+      "contenteditable": "true",
+      "allowdrop": "true",
+      "class": "notepad_sidebar_cont"
+    },
+    "_type": 1,
+    "children": [
+      {
+        "_tag": "strike",
+        "_data": {},
+        "_type": 1,
+        "children": [
+          {
+            "_value": "二百二十二",
+            "_type": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "_tag": "br",
+        "_data": {},
+        "_type": 1,
+        "children": []
+      }
+    ]
+  },
+  "lock": false,
+  "lockValue": "",
+  "latestTime": "2022-03-28"
+}

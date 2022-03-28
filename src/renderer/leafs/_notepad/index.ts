@@ -10,8 +10,9 @@ import {
 } from "vue";
 import menuCommon from "@renderer/components/MenuCommon/index.vue";
 import dialogLogin from '@renderer/components/DialogLogin/index.vue';
+import translate from './components/Translate.vue';
 import { useRouter } from "vue-router";
-import { ElMessage } from 'element-plus'
+import { ElMessage, ElNotification } from 'element-plus'
 import { listenerDrag, listenerDrop, getVNode, parse,creatEmptyVNode,repaintImg } from "./util";
 import { fontNames, fontSizes } from "./config"
 import { debounce } from '@renderer/utils/tool'
@@ -21,7 +22,7 @@ const {ipcRenderer} = require("electron");
 
 export default defineComponent({
   components: {
-    menuCommon,dialogLogin
+    menuCommon,dialogLogin,translate
   },
   setup() {
     const Router = useRouter();
@@ -95,6 +96,18 @@ export default defineComponent({
     // 准备修改笔记标题
     const preEditSubtitle = () => {
         state.disabled = false
+    }
+    // 翻译选中文本内容
+    const onTranslate = async ({ trans_result }) => {
+        ElNotification({
+            title: '翻译成功',
+            message: `翻译结果【 ${ trans_result[0].dst } 】已自动覆盖选中数据`,
+            type: 'success',
+        })
+        await window.navigator.clipboard.writeText(trans_result[0].dst)
+        changeStyle({
+            command: 'paste',
+        })
     }
     // 修改笔记加密状态
     const unlockChange = async () => {
@@ -367,7 +380,7 @@ export default defineComponent({
       ...toRefs(state),
       noteChange,
       changeStyle,
-      unLogin,unlockChange,handleSelect,querySearchAsync,layoutChange,handleExceed,colorChange,changeLoginDialog,addNote,removeNote,subtitleChange,preEditSubtitle,changeEncryption,concealClick,
+      onTranslate,unLogin,unlockChange,handleSelect,querySearchAsync,layoutChange,handleExceed,colorChange,changeLoginDialog,addNote,removeNote,subtitleChange,preEditSubtitle,changeEncryption,concealClick,
       fontNames,fontSizes
     };
   },
