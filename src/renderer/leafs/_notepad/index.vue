@@ -335,7 +335,7 @@
         width: 160px;
         .notepad_list {
             height: 100%;
-            overflow-y: scroll;
+            overflow-y: auto;
             .el-empty {
                 transition: .3s;
                 height: 80%;
@@ -414,7 +414,7 @@
         }
         .notepad_list_box {
             height: 100%;
-            overflow-y: scroll;
+            overflow-y: auto;
             padding-bottom: 14px;
             transition: .3s;
             .el-empty {
@@ -518,7 +518,7 @@
         flex: 1;
         margin-right: 2px;
         height: 100%;
-        overflow-y: scroll;
+        overflow-y: auto;
         font-family:'Courier New', Courier, monospace;
         &:hover{
             transition: .3s;
