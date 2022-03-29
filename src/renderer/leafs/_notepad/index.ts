@@ -11,8 +11,9 @@ import {
 import menuCommon from "@renderer/components/MenuCommon/index.vue";
 import dialogLogin from '@renderer/components/DialogLogin/index.vue';
 import translate from './components/Translate.vue';
+import setup from './components/Setup.vue';
 import { useRouter } from "vue-router";
-import { ElMessage, ElNotification } from 'element-plus'
+import { ElMessage, ElNotification, ElMessageBox } from 'element-plus'
 import { listenerDrag, listenerDrop, getVNode, parse,creatEmptyVNode,repaintImg } from "./util";
 import { fontNames, fontSizes } from "./config"
 import { debounce } from '@renderer/utils/tool'
@@ -22,7 +23,7 @@ const {ipcRenderer} = require("electron");
 
 export default defineComponent({
   components: {
-    menuCommon,dialogLogin,translate
+    menuCommon,dialogLogin,translate,setup
   },
   setup() {
     const Router = useRouter();
@@ -35,7 +36,8 @@ export default defineComponent({
       disabled: true,
       loginDialog: true,
       noteList: [],
-      curNote: null
+      curNote: null,
+      choice: '粘贴全部信息'
     });
     // 修改布局方式
     const layoutChange = (layoutType) => {
@@ -108,6 +110,10 @@ export default defineComponent({
         changeStyle({
             command: 'paste',
         })
+    }
+    // 设置-粘贴状态
+    const onChangePaste = (e) => {
+        state.choice = e
     }
     // 修改笔记加密状态
     const unlockChange = async () => {
@@ -318,11 +324,19 @@ export default defineComponent({
                 command: 'copy'
             })
         })
-        ipcRenderer.on('CommandOrControl+V', (event) => {
+        ipcRenderer.on('CommandOrControl+V', async (event) => {
             console.log('CommandOrControl+V')
-            changeStyle({
-                command: 'paste'
-            })
+            const text = await window.navigator.clipboard.readText()
+            if (state.choice === '粘贴全部信息') {
+                changeStyle({
+                    command: 'paste'
+                }) 
+            } else {
+                await window.navigator.clipboard.writeText(text)
+                changeStyle({
+                    command: 'paste'
+                }) 
+            }
         })
         ipcRenderer.on('CommandOrControl+X', (event) => {
             console.log('CommandOrControl+X')
@@ -380,7 +394,7 @@ export default defineComponent({
       ...toRefs(state),
       noteChange,
       changeStyle,
-      onTranslate,unLogin,unlockChange,handleSelect,querySearchAsync,layoutChange,handleExceed,colorChange,changeLoginDialog,addNote,removeNote,subtitleChange,preEditSubtitle,changeEncryption,concealClick,
+      onChangePaste,onTranslate,unLogin,unlockChange,handleSelect,querySearchAsync,layoutChange,handleExceed,colorChange,changeLoginDialog,addNote,removeNote,subtitleChange,preEditSubtitle,changeEncryption,concealClick,
       fontNames,fontSizes
     };
   },

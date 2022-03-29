@@ -12,23 +12,10 @@
     "_type": 1,
     "children": [
       {
-        "_tag": "font",
-        "_data": {
-          "size": "2"
-        },
+        "_tag": "br",
+        "_data": {},
         "_type": 1,
-        "children": [
-          {
-            "_value": "scwqwqwq哈",
-            "_type": 3,
-            "children": []
-          },
-          {
-            "_value": "哈",
-            "_type": 3,
-            "children": []
-          }
-        ]
+        "children": []
       }
     ]
   },
