@@ -30,7 +30,7 @@ fi
 #     NEWVERSION="$V1.$V2.$V3"
 # else
 #     echo 'patch---小版本变动'
-#     NEWVERSION="$V1.$V2.$V3"
+    NEWVERSION="$V1.$V2.$V3"
 # fi
 
 read -p "发布新版本 $NEWVERSION (原版本$VERSION) - 确定? (y/n) " -n 1 -r
