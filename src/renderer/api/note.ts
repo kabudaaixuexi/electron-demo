@@ -1,5 +1,5 @@
 import request from '@renderer/utils/request'
-import translate from './translate'
+import baidu from './baiduApi'
 import {getNoteListReq,addNoteReq,editNoteReq,removeNoteReq } from './type'
 export default {
     /** 获取笔记列表 */
@@ -34,5 +34,5 @@ export default {
         })
         return data
     },
-    ...translate
+    ...baidu
 } 

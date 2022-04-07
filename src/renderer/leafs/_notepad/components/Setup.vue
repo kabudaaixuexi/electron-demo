@@ -7,11 +7,35 @@
             <template #dropdown>
             <el-dropdown-menu>
                 <!-- 是否仅粘贴文本 -->
-                <el-dropdown-item>
-                    <p class="">* <span>粘贴板信息格式化</span></p>
+                <el-dropdown-item style="padding-bottom:16px">
+                    <p class="">* <span>粘贴板格式化</span></p>
                     <el-radio-group @change="handleChangePaste" v-model="choice" size="small">
-                        <el-radio-button label="仅粘贴文本" />
+                        <el-radio-button label="仅粘贴文本项" />
                         <el-radio-button label="粘贴全部信息" />
+                    </el-radio-group>
+                </el-dropdown-item>
+                <!-- 颜色编辑对象 -->
+                <el-dropdown-item style="padding-bottom:16px">
+                    <p class="">* <span>色值编辑对象</span></p>
+                    <el-radio-group @change="handleChangeColorM" v-model="colorM" size="small">
+                        <el-radio-button label="修改背景颜色" />
+                        <el-radio-button label="修改文字颜色" />
+                    </el-radio-group>
+                </el-dropdown-item>
+                <!-- 文件存储位置 -->
+                <el-dropdown-item style="padding-bottom:16px">
+                    <p class="">* <span>文件存储位置</span></p>
+                    <el-radio-group disabled @change="handleChangeServer" v-model="server" size="small">
+                        <el-radio-button label="始终离线使用" />
+                        <el-radio-button label="始终同步远程" />
+                    </el-radio-group>
+                </el-dropdown-item>
+                <!-- 动画控制 -->
+                <el-dropdown-item style="padding-bottom:16px">
+                    <p class="">* <span>控制动画加载</span></p>
+                    <el-radio-group disabled @change="handleChangeShowAnimis" v-model="showAnimis" size="small">
+                        <el-radio-button label="允许加载动画" />
+                        <el-radio-button label="禁止所有动画" />
                     </el-radio-group>
                 </el-dropdown-item>
             </el-dropdown-menu>
@@ -28,18 +52,29 @@ import {
   reactive,
   toRefs,
 } from "vue";
-import { ElNotification } from 'element-plus'
+import moon from '@renderer/store'
 export default defineComponent({
   name: 'setup',
   props: {
-    choice: String,
-    onChangePaste: Function
   },
   setup(props, context) {
     const state = reactive({
+        choice: moon.$_getData('choice'),
+        colorM: moon.$_getData('colorM'),
+        server: moon.$_getData('server'),
+        showAnimis: moon.$_getData('showAnimis'),
     })
     const handleChangePaste = async (e) => {
-        props.onChangePaste(e)
+        moon.$_set(e, 'choice')
+    }
+    const handleChangeColorM = async (e) => {
+        moon.$_set(e, 'colorM')
+    }
+    const handleChangeServer = () => {
+        moon.$_set(e, 'server')
+    }
+    const handleChangeShowAnimis = () => {
+        moon.$_set(e, 'showAnimis')
     }
     onMounted(() => {
     })
@@ -47,7 +82,10 @@ export default defineComponent({
     })
     return { 
       ...toRefs(state),
-      handleChangePaste
+      handleChangePaste,
+      handleChangeColorM,
+      handleChangeServer,
+      handleChangeShowAnimis
     };
   }
 });

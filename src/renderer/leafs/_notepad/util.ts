@@ -3,11 +3,11 @@ const {ipcRenderer} = require("electron");
 import axios from 'axios'
 
 export const listenerDrag = function () {
-    var resize = document.querySelector(".middle");
-    var left = document.querySelector(".notepad_sidebar_left");
-    var right = document.querySelector(".notepad_sidebar_cont");
-    var box = document.querySelector(".notepad_sidebar");
-    console.log(resize, left, right, box, 'lkhghjk');
+    var resize = (document.querySelector(".middle") as any);
+    var left = (document.querySelector(".notepad_sidebar_left") as any);
+    var right = (document.querySelector(".notepad_sidebar_cont") as any);
+    var box = (document.querySelector(".notepad_sidebar") as any);
+    // console.log(resize, left, right, box, 'lkhghjk');
     resize.onmousedown = function (e) {
         var startX = e.clientX;
         resize.left = resize.offsetLeft;
@@ -208,9 +208,12 @@ export const parse = (vnode) => {
         // 属性
         let _data = vnode._data;
         // console.log(Object.keys(_data)); 得到一个使用key组成的数据
-        Object.keys(_data).forEach(key => {
-            let attrName = key;
-            let attrValue = _data[key];
+        // Object.keys(_data).forEach(key => {
+        //     let attrName = key;
+        //     let attrValue = _data[key];
+        //     _node.setAttribute(attrName, attrValue);
+        // })
+        Object.entries(_data).forEach(([attrName, attrValue]) => {
             _node.setAttribute(attrName, attrValue);
         })
 

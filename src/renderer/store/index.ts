@@ -6,4 +6,4 @@ import moon from "xins.store.df";
  * @false 要挂载的实例对象
  * @true 是否开启持久化
  */
-export default moon(State, false, false);
+export default moon(State, false, true);

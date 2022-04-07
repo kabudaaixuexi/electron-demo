@@ -12,29 +12,13 @@
     "_type": 1,
     "children": [
       {
-        "_tag": "font",
-        "_data": {
-          "color": "#121212",
-          "face": "-apple-system, system-ui, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif"
-        },
-        "_type": 1,
-        "children": [
-          {
-            "_value": "set up",
-            "_type": 3,
-            "children": []
-          }
-        ]
-      },
-      {
-        "_tag": "br",
-        "_data": {},
-        "_type": 1,
+        "_value": "1521⏯",
+        "_type": 3,
         "children": []
       }
     ]
   },
   "lock": false,
-  "lockValue": "",
+  "lockValue": "1111",
   "latestTime": "2022-03-28"
 }

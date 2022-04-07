@@ -137,3 +137,17 @@ export const langs =  {
     // Yoruba: "yo",
     // Zulu: "zu"
   };
+  /** 合成语音 */
+  // 度小宇=1，度小美=0，度逍遥（基础）=3，度丫丫=4
+  type Per = 0 | 1 | 3 | 4
+  export interface getVoiceReq {
+      tex: string,
+      lan: string,
+      cuid: string,
+      spd?: number,
+      pit?: number,
+      vol?: number,
+      ctp: number,
+      tok: string,
+      per?: Per
+  }

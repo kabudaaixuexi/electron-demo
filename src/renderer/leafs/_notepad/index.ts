@@ -12,6 +12,9 @@ import menuCommon from "@renderer/components/MenuCommon/index.vue";
 import dialogLogin from '@renderer/components/DialogLogin/index.vue';
 import translate from './components/Translate.vue';
 import setup from './components/Setup.vue';
+import voice from './components/Voice.vue';
+import uploadImg from './components/UploadImg.vue';
+import fontStyle from './components/FontStyle.vue';
 import { useRouter } from "vue-router";
 import { ElMessage, ElNotification, ElMessageBox } from 'element-plus'
 import { listenerDrag, listenerDrop, getVNode, parse,creatEmptyVNode,repaintImg } from "./util";
@@ -23,7 +26,7 @@ const {ipcRenderer} = require("electron");
 
 export default defineComponent({
   components: {
-    menuCommon,dialogLogin,translate,setup
+    menuCommon,dialogLogin,translate,setup,voice,fontStyle,uploadImg
   },
   setup() {
     const Router = useRouter();
@@ -37,7 +40,6 @@ export default defineComponent({
       loginDialog: true,
       noteList: [],
       curNote: null,
-      choice: '粘贴全部信息'
     });
     // 修改布局方式
     const layoutChange = (layoutType) => {
@@ -76,13 +78,6 @@ export default defineComponent({
         ? document.execCommand(data.command, false, data.value)
         : document.execCommand(data.command, false, null);
     };
-    // 修改颜色
-    const colorChange = (value) => {
-        changeStyle({
-            command: 'foreColor',
-            value
-        })
-    }
 
     // 获取笔记列表
     const getNoteList = async (cb = null) => {
@@ -99,22 +94,7 @@ export default defineComponent({
     const preEditSubtitle = () => {
         state.disabled = false
     }
-    // 翻译选中文本内容
-    const onTranslate = async ({ trans_result }) => {
-        ElNotification({
-            title: '翻译成功',
-            message: `翻译结果【 ${ trans_result[0].dst } 】已自动覆盖选中数据`,
-            type: 'success',
-        })
-        await window.navigator.clipboard.writeText(trans_result[0].dst)
-        changeStyle({
-            command: 'paste',
-        })
-    }
-    // 设置-粘贴状态
-    const onChangePaste = (e) => {
-        state.choice = e
-    }
+    
     // 修改笔记加密状态
     const unlockChange = async () => {
         // 没有设置密码的加密
@@ -310,7 +290,7 @@ export default defineComponent({
         const EditedDom = document.querySelector(`.notepad_sidebar_cont`);
         EditedDom.addEventListener("input", debounce((ev) => {
           editNote(getVNode(ev.target));
-        }, 200, false)
+        }, 300, false)
         );
         repaintImg(EditedDom)
         listenerDrop(EditedDom);
@@ -327,7 +307,7 @@ export default defineComponent({
         ipcRenderer.on('CommandOrControl+V', async (event) => {
             console.log('CommandOrControl+V')
             const text = await window.navigator.clipboard.readText()
-            if (state.choice === '粘贴全部信息') {
+            if (moon.$_getData('choice') === '粘贴全部信息') {
                 changeStyle({
                     command: 'paste'
                 }) 
@@ -394,7 +374,7 @@ export default defineComponent({
       ...toRefs(state),
       noteChange,
       changeStyle,
-      onChangePaste,onTranslate,unLogin,unlockChange,handleSelect,querySearchAsync,layoutChange,handleExceed,colorChange,changeLoginDialog,addNote,removeNote,subtitleChange,preEditSubtitle,changeEncryption,concealClick,
+      unLogin,unlockChange,handleSelect,querySearchAsync,layoutChange,handleExceed,changeLoginDialog,addNote,removeNote,subtitleChange,preEditSubtitle,changeEncryption,concealClick,
       fontNames,fontSizes
     };
   },

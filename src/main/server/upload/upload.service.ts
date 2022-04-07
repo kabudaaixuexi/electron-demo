@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { fileBySuffix, appendFile, readFile, getFiles, access } from '../__modular/file';
+import { fileBySuffix, appendFile, readFile, getFiles } from '../__modular/file';
 import { nestAssetsUrl } from '../../config/StaticPath'
 import { createWriteStream } from 'fs';
 
