@@ -1,5 +1,6 @@
 .fontCard1 {
-    width: 168px;
+    min-width: 168px;
+    width: max-content;
     margin: 10px 0;
     min-height: 88px;
     height: max-content;
@@ -9,7 +10,7 @@
     line-height: 180%;
     color: #000;
     transition: .3s;
-    transform: scale(.9);
+    transform: scale(.98);
     opacity: 1;
     &:hover {
         opacity: .8;
@@ -17,7 +18,8 @@
     }
 }
 .fontCard2 {
-    width: 168px;
+    min-width: 168px;
+    width: max-content;
     margin: 10px 0;
     min-height: 88px;
     height: max-content;
@@ -27,7 +29,7 @@
     line-height: 180%;
     color: rgb(73, 50, 50);
     transition: .3s;
-    transform: scale(.9);
+    transform: scale(.98);
     opacity: 1;
     &:hover {
         opacity: .8;
@@ -35,7 +37,8 @@
     }
 }
 .fontCard3 {
-    width: 168px;
+    min-width: 168px;
+    width: max-content;
     margin: 10px 0;
     min-height: 88px;
     height: max-content;
@@ -45,7 +48,7 @@
     line-height: 180%;
     color: #000;
     transition: .3s;
-    transform: scale(.9);
+    transform: scale(.98);
     opacity: 1;
     &:hover {
         opacity: .8;

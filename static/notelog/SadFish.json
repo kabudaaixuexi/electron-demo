@@ -26,12 +26,12 @@
       {
         "_tag": "div",
         "_data": {
-          "class": "fontCard2"
+          "class": "fontCard1"
         },
         "_type": 1,
         "children": [
           {
-            "_value": "我是小卡片02号",
+            "_value": "我是小卡片01号擦撒传撒 擦拭撒擦啊a",
             "_type": 3,
             "children": []
           }
