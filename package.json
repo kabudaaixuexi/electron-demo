@@ -1,6 +1,6 @@
 {
   "name": "electron-vite-template",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./dist/electron/main/main.js",
   "author": "sky <https://github.com/umbrella22>",
   "license": "MIT",
