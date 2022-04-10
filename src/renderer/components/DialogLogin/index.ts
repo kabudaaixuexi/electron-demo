@@ -17,14 +17,14 @@ export default defineComponent({
       value: null,
       password: null,
       restaurants:[
-        {value: 'SadFish', password: 'abcdef'},
-        {value: 'Administrator', password: 'abcdef'},
-        {value: 'TaskQueue', password: 'abcdef'},
-        {value: 'Spare01', password: 'Spare01'},
-        {value: 'Spare02', password: 'Spare02'},
-        {value: '花心大萝卜', password: 123456},
-        {value: '一颗豌豆芽', password: 123456},
-        {value: '麻油百香果', password: 123456},
+        {value: 'Root', password: 'currency123'},
+        {value: 'LixPabor', password: 'currency123'},
+        {value: 'Administrator', password: 'currency123'},
+        {value: 'Spare01', password: 'currency123'},
+        {value: 'Spare02', password: 'currency123'},
+        {value: '灰太狼气球', password: 'currency123'},
+        {value: '尤达大师', password: 'currency123'},
+        {value: '麻油百香果', password: 'Fullstack123'},
       ]
     })
     const querySearch = (queryString: string, cb) => {
@@ -42,9 +42,22 @@ export default defineComponent({
       }
     }
     const handleSelect = (item) => {
-      state.password = item.password
+      // state.password = item.password
     }
     const chatLogin = () => {
+      if (!state.restaurants.find(ev => state.value == ev.value)) {
+        ElMessage({
+          type:'error',
+          message:"只能使用默认账号名称登录！"
+        })
+        return
+      } else if (state.restaurants.find(ev => state.value == ev.value).password != state.password) {
+        ElMessage({
+          type:'error',
+          message:"密码不正确！"
+        })
+        return
+      }
       moon.$_set({
         uid: state.value,
         password: state.password,

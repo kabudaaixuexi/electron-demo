@@ -45,7 +45,7 @@
                                 </div>
                             </template>
                             <el-space>
-                                <svg t="1648815460155" class="notepad_header_text_icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="11409" width="24" height="24"><path d="M1024 239.189333C1024 169.927111 965.034667 113.777778 892.330667 113.777778H131.697778C58.965333 113.777778 0 169.927111 0 239.189333V813.226667C0 882.517333 58.965333 938.666667 131.669333 938.666667H892.302222C965.034667 938.666667 1024 882.517333 1024 813.255111V239.217778zM131.669333 197.376H892.302222c24.149333 0 43.889778 18.830222 43.889778 41.813333v101.717334H87.779556V239.189333c0-22.983111 19.740444-41.813333 43.889777-41.813333zM892.302222 855.068444H131.697778c-24.149333 0-43.889778-18.830222-43.889778-41.813333V424.504889h848.440889v388.750222c0 22.983111-19.740444 41.813333-43.889778 41.813333z m-509.070222-189.496888H184.32c-24.291556 0-43.889778 18.659556-43.889778 41.813333 0 23.096889 19.626667 41.784889 43.889778 41.784889h198.940444c24.291556 0 43.889778-18.688 43.889778-41.813334s-19.598222-41.813333-43.889778-41.813333z" p-id="11410" fill="#bba14c"></path></svg>
+                                <svg v-if="userInfo?.uid === '麻油百香果'" t="1648815460155" class="notepad_header_text_icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="11409" width="24" height="24"><path d="M1024 239.189333C1024 169.927111 965.034667 113.777778 892.330667 113.777778H131.697778C58.965333 113.777778 0 169.927111 0 239.189333V813.226667C0 882.517333 58.965333 938.666667 131.669333 938.666667H892.302222C965.034667 938.666667 1024 882.517333 1024 813.255111V239.217778zM131.669333 197.376H892.302222c24.149333 0 43.889778 18.830222 43.889778 41.813333v101.717334H87.779556V239.189333c0-22.983111 19.740444-41.813333 43.889777-41.813333zM892.302222 855.068444H131.697778c-24.149333 0-43.889778-18.830222-43.889778-41.813333V424.504889h848.440889v388.750222c0 22.983111-19.740444 41.813333-43.889778 41.813333z m-509.070222-189.496888H184.32c-24.291556 0-43.889778 18.659556-43.889778 41.813333 0 23.096889 19.626667 41.784889 43.889778 41.784889h198.940444c24.291556 0 43.889778-18.688 43.889778-41.813334s-19.598222-41.813333-43.889778-41.813333z" p-id="11410" fill="#bba14c"></path></svg>
                             </el-space>
                         </el-tooltip>
                     <!-- </el-dropdown> -->
@@ -60,7 +60,7 @@
                                 </div>
                             </template>
                             <el-space>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="notepad_header_text_icon" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50" xml:space="preserve">
+                                <svg v-if="userInfo?.uid === '麻油百香果'" xmlns="http://www.w3.org/2000/svg" class="notepad_header_text_icon" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50" xml:space="preserve">
                                     <rect x="0" y="0" width="4" height="10" fill="#bba14c" transform="translate(0 9.4336)">
                                         <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 20; 0 0" begin="0.2s" dur="0.6s" repeatCount="indefinite"></animateTransform>
                                     </rect>
@@ -109,11 +109,13 @@ import moon from '@renderer/store'
 export default defineComponent({
   name: 'font-style',
   props: {
+    userInfo: Object,
     changeStyle: Function
   },
   setup(props, context) {
     const state = reactive({
-        showAnimis: moon.$_getData('showAnimis')
+        showAnimis: moon.$_getData('showAnimis'),
+        
     })
     // 修改颜色
     const colorChange = (value) => {

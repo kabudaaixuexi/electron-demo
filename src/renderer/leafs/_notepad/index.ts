@@ -40,6 +40,7 @@ export default defineComponent({
       loginDialog: true,
       noteList: [],
       curNote: null,
+      userInfo: moon.$_getData('userInfo')
     });
     // 修改布局方式
     const layoutChange = (layoutType) => {
@@ -339,6 +340,7 @@ export default defineComponent({
     }
     onMounted(() => {
       moon.$_watch('userInfo', (new_val,old_val)=>{
+        state.userInfo = new_val
         removeRender()
         setTimeout(() => {
             if (moon.$_getData('userInfo')) {

@@ -15,7 +15,7 @@
             placeholder="账号从输入提示中选一个"
             @select="handleSelect"
         />
-        <el-input v-model="password" type="password" placeholder="密码自动填充" />
+        <el-input v-model="password" type="password" placeholder="请输入密码" />
         <template #footer>
             <!-- <el-button disabled @click="dialogVisible = false">Cancel</el-button> -->
             <el-button type="primary" @click="chatLogin">确认登录</el-button>
