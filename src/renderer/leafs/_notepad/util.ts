@@ -1,5 +1,5 @@
 
-const {ipcRenderer} = require("electron");
+const { ipcRenderer } = require("electron");
 import axios from 'axios'
 
 export const listenerDrag = function () {
@@ -33,7 +33,6 @@ export const listenerDrag = function () {
 };
 // 重写所有图片，添加双击事件
 export const repaintImg = (el) => {
-    sessionStorage.setItem('count','1')
     Array.from(el.children).map(el => {
         if (el.localName == 'img') {
             if(el.clientHeight < el.clientWidth) {
@@ -43,33 +42,11 @@ export const repaintImg = (el) => {
                 el.style.width = 'auto'
                 el.style.height = "120px"
             }
-            el.addEventListener('dblclick', () => {
-                if (sessionStorage.getItem('count') == '1') {
-                    if (el.style.position !== "absolute") {
-                        el.style.position = 'absolute'
-                        el.style.top = '50%'
-                        el.style.left = '50%'
-                        el.style.zIndex = '98'
-                        el.style.transition = 'transform .3s'
-                        el.style.transform = 'translate(-50%,-50%) scale(5)';
-                    } else {
-                        el.style.transition = '0'
-                        el.style.position = "static"
-                        el.style.transform = 'translate(0,0) scale(1)'
-                        el.style.zIndex = '99'
-                        if(el.clientHeight < el.clientWidth) {
-                            el.style.height = 'auto'
-                            el.style.width = "120px"
-                        } else {
-                            el.style.width = 'auto'
-                            el.style.height = "120px"
-                        }
-                    }
-                    sessionStorage.setItem('count','2')
-                    setTimeout(()=> {
-                        sessionStorage.setItem('count','1')
-                    })
-                }
+            el.addEventListener('dblclick', (el) => {
+                const url = el.target.currentSrc
+                const len = url.split('/')
+                const title = len[len.length - 1]
+                ipcRenderer.invoke("open-win", { url, title });
             })
         }
         if(Array.from(el.children).length){
@@ -102,7 +79,7 @@ export const listenerDrop = (el) => {
         const appendImg = async (ev) => {
             let data = new FormData() //初始化时将form Dom对象传入
             data.append('file', ev) //将imagefile键追加进去，值为input-file的dom对象，否则服务端无法获取file
-            const { data:result } = await axios.post("http://localhost:25566/upload/note",data)
+            const { data:result } = await axios.post("http://124.220.16.124:8099/upload/setFilesNote",data)
             // const img_src = URL.createObjectURL(ev);
             Template.setup().changeStyle({
                 command: 'insertImage',

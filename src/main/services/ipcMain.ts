@@ -99,7 +99,12 @@ export default {
       // ChildWin.close = () => {
       //   globalShortcut.unregisterAll()
       // }
-      ChildWin.loadURL(winURL + `#${arg.url}`)
+      // 如果是网络路径直接打开即可
+      if (arg.url.indexOf('http') !== -1) {
+        ChildWin.loadURL(arg.url)
+      } else {
+        ChildWin.loadURL(winURL + `#${arg.url}`)
+      }
       ChildWin.webContents.once('dom-ready', () => {
         ChildWin.show()
         // 由于渲染进程可能会加载缓慢，所以在这里，加一个延迟，等一等渲染进程
