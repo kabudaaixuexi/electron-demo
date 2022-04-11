@@ -8,7 +8,7 @@
     }
   ],
   "productName": "记事本",
-  "appId": "org.sky.electron-vite-template",
+  "appId": "kaburda.electron-vite-template",
   "directories": {
     "output": "build"
   },
