@@ -59,22 +59,22 @@ export default defineComponent({
   },
   setup(props, context) {
     const state = reactive({
-        choice: moon.$_getData('choice'),
-        colorM: moon.$_getData('colorM'),
-        server: moon.$_getData('server'),
-        showAnimis: moon.$_getData('showAnimis'),
+        choice: moon.getState('choice'),
+        colorM: moon.getState('colorM'),
+        server: moon.getState('server'),
+        showAnimis: moon.getState('showAnimis'),
     })
     const handleChangePaste = async (e) => {
-        moon.$_set(e, 'choice')
+        moon.setState(e, 'choice')
     }
     const handleChangeColorM = async (e) => {
-        moon.$_set(e, 'colorM')
+        moon.setState(e, 'colorM')
     }
     const handleChangeServer = () => {
-        moon.$_set(e, 'server')
+        moon.setState(e, 'server')
     }
     const handleChangeShowAnimis = () => {
-        moon.$_set(e, 'showAnimis')
+        moon.setState(e, 'showAnimis')
     }
     onMounted(() => {
     })
@@ -95,7 +95,6 @@ export default defineComponent({
 @import '@renderer/styles/style.scss';
 .notepad_header_setup {
     @extend %Flex-Center-Start;
-    // padding-left: 50px;
         svg {
         @include BR(3px);
         transition: .35s;

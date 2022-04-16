@@ -1,4 +1,8 @@
 // 测试
-import moon from './moon'
+// import moon from './lib'
 
-export default moon()
+// export default moon({
+//     initName:'宁睿'
+// }, {
+//     usePersisted: true
+// })

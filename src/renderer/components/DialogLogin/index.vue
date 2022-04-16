@@ -13,7 +13,6 @@
             :fetch-suggestions="querySearch"
             class="inline-input"
             placeholder="账号从输入提示中选一个"
-            @select="handleSelect"
         />
         <el-input v-model="password" type="password" placeholder="请输入密码" />
         <template #footer>

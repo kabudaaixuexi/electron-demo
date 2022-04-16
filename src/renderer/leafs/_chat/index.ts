@@ -72,11 +72,11 @@ export default defineComponent({
       messageList: [],
       currentanimeid: null,
       //
-      userInfo: moon.$_getData('userInfo')
+      userInfo: moon.getState('userInfo')
     })
     console.log(moon,'moon');
     
-    moon.$_watch('userInfo',(new_val,old_val)=>{
+    moon.watch('userInfo',(new_val,old_val)=>{
       console.log(new_val,'new_val-userInfo');
       console.log(old_val,'old_val-userInfo')
       console.log('chat')

@@ -114,12 +114,12 @@ export default defineComponent({
   },
   setup(props, context) {
     const state = reactive({
-        showAnimis: moon.$_getData('showAnimis'),
+        showAnimis: moon.getState('showAnimis'),
         
     })
     // 修改颜色
     const colorChange = (value) => {
-        if (moon.$_getData('colorM') === '修改背景颜色') {
+        if (moon.getState('colorM') === '修改背景颜色') {
             props.changeStyle({
                 command: 'hiliteColor',
                 value

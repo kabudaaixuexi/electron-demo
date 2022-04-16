@@ -16,13 +16,13 @@ import { subApps } from './sub-app/subConfig'
 
 
 registerMicroApps(subApps);
-const actions = initGlobalState(moon.$_getData());
+const actions = initGlobalState(moon.getState());
 // 主项目项目监听和修改
 actions.onGlobalStateChange((state, prev) => {
   // state: 变更后的状态; prev 变更前的状态
-  console.log(state, prev);
+  // console.log(state, prev);
 });
-actions.setGlobalState(moon.$_getData());
+actions.setGlobalState(moon.getState());
 start();
 
 

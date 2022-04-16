@@ -11,12 +11,15 @@
   <div id="app"></div>
   <script type="module" src="/main.ts"></script>
   <script>
-    if (process && process.env.NODE_ENV === 'development') {
-      window.__static = `http://localhost:${process.env.PORT}`
-    } else {
-      window.__static = __dirname
+    try {
+      if (process && process.env.NODE_ENV === 'development') {
+        window.__static = `http://localhost:${process.env.PORT}`
+      } else {
+        window.__static = __dirname
+      }
+    } catch {
+      window.location.href = `welcome.html?%${Number(Math.random().toString().substr(2,Math.random()) + Date.now()).toString(36)}`
     }
-
   </script>
 </body>
 

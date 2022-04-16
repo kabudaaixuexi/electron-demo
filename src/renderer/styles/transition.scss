@@ -1,5 +1,5 @@
 //globl transition css
-
+@import '@renderer/styles/style.scss';
 /*fade*/
 .fade-enter-active,
 .fade-leave-active {
@@ -29,4 +29,31 @@
 
 .breadcrumb-leave-active {
   position: absolute;
+}
+
+/*themeStyle*/
+.default-theme {
+  background-color: #26272A;
+}
+.sky-theme {
+  background-color: #4682B4;
+}
+.hot-theme {
+  background-color: #681616;
+}
+.yummy-theme {
+  background-color: #a0770f;
+}
+
+.default-theme-der {
+  background: $color-default-derived-06;
+}
+.sky-theme-der {
+  background-color: #172330;
+}
+.hot-theme-der {
+  background-color: #221515;
+}
+.yummy-theme-der {
+  background-color: #2c2410;
 }

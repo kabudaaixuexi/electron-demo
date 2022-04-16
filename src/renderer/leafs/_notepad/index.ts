@@ -12,9 +12,11 @@ import menuCommon from "@renderer/components/MenuCommon/index.vue";
 import dialogLogin from '@renderer/components/DialogLogin/index.vue';
 import translate from './components/Translate.vue';
 import setup from './components/Setup.vue';
+import skin from './components/Skin.vue';
 import voice from './components/Voice.vue';
 import uploadImg from './components/UploadImg.vue';
 import fontStyle from './components/FontStyle.vue';
+import user from './components/User.vue';
 import { useRouter } from "vue-router";
 import { ElMessage, ElNotification, ElMessageBox } from 'element-plus'
 import { listenerDrag, listenerDrop, getVNode, parse,creatEmptyVNode,repaintImg } from "./util";
@@ -26,7 +28,7 @@ const {ipcRenderer} = require("electron");
 
 export default defineComponent({
   components: {
-    menuCommon,dialogLogin,translate,setup,voice,fontStyle,uploadImg
+    menuCommon,dialogLogin,translate,setup,voice,fontStyle,uploadImg,user,skin
   },
   setup() {
     const Router = useRouter();
@@ -40,7 +42,8 @@ export default defineComponent({
       loginDialog: true,
       noteList: [],
       curNote: null,
-      userInfo: moon.$_getData('userInfo')
+      themeStyle: moon.getState('themeStyle'),
+      userInfo: moon.getState('userInfo')
     });
     // 修改布局方式
     const layoutChange = (layoutType) => {
@@ -82,10 +85,8 @@ export default defineComponent({
 
     // 获取笔记列表
     const getNoteList = async (cb = null) => {
-        console.log(moon.$_getData());
-        
         const { data } = await API.getNoteList({
-            uid: moon.$_getData('userInfo').uid
+            uid: moon.getState('userInfo').uid
         })
         // console.log(data);
         state.noteList = data
@@ -102,7 +103,7 @@ export default defineComponent({
         if (!state.curNote?.lockValue) {
             changeEncryptionSuccess(true, state.unlockValue)
             await API.editNote({
-                uid: moon.$_getData('userInfo').uid,
+                uid: moon.getState('userInfo').uid,
                 noteid: state.curNote.noteid,
                 subtitle: state.curNote.subtitle,
                 vNode: state.curNote.vNode,
@@ -135,7 +136,7 @@ export default defineComponent({
         removeRender()
         state.curNote.lock = e
         await API.editNote({
-            uid: moon.$_getData('userInfo').uid,
+            uid: moon.getState('userInfo').uid,
             noteid: state.curNote.noteid,
             subtitle: state.curNote.subtitle,
             vNode:state.curNote.vNode,
@@ -227,7 +228,7 @@ export default defineComponent({
     const subtitleChange = async (ev) => {
         state.disabled = true
         await API.editNote({
-            uid: moon.$_getData('userInfo').uid,
+            uid: moon.getState('userInfo').uid,
             noteid: state.curNote.noteid,
             subtitle: ev,
             vNode: state.curNote.vNode,
@@ -240,7 +241,7 @@ export default defineComponent({
     const editNote = async (ev) => {
         if (!state.curNote) return
         await API.editNote({
-            uid: moon.$_getData('userInfo').uid,
+            uid: moon.getState('userInfo').uid,
             noteid: state.curNote.noteid,
             subtitle: state.curNote.subtitle,
             vNode: ev,
@@ -255,7 +256,7 @@ export default defineComponent({
     const addNote = async () => {
         removeRender()
         const { data } = await API.addNote({
-            uid: moon.$_getData('userInfo').uid,
+            uid: moon.getState('userInfo').uid,
             vNode: creatEmptyVNode(),
             subtitle: '',
             lockValue: '',
@@ -271,7 +272,7 @@ export default defineComponent({
         removeRender()
         if (!state.curNote) return
         const { data } = await API.removeNote({
-            uid: moon.$_getData('userInfo').uid,
+            uid: moon.getState('userInfo').uid,
             noteid: state.curNote.noteid,
         })
         let index = 0
@@ -308,7 +309,7 @@ export default defineComponent({
         ipcRenderer.on('CommandOrControl+V', async (event) => {
             console.log('CommandOrControl+V')
             const text = await window.navigator.clipboard.readText()
-            if (moon.$_getData('choice') === '粘贴全部信息') {
+            if (moon.getState('choice') === '粘贴全部信息') {
                 changeStyle({
                     command: 'paste'
                 }) 
@@ -339,11 +340,11 @@ export default defineComponent({
         })
     }
     onMounted(() => {
-      moon.$_watch('userInfo', (new_val,old_val)=>{
+      moon.watch('userInfo', (new_val,old_val)=>{
         state.userInfo = new_val
         removeRender()
         setTimeout(() => {
-            if (moon.$_getData('userInfo')) {
+            if (moon.getState('userInfo')) {
                 getNoteList(()=>{
                     state.curNote = state.noteList[0] || null
                     recoveryRender()
@@ -352,7 +353,8 @@ export default defineComponent({
                 recoveryRender()
             }
         })
-      })
+      }, true)
+      moon.watch('themeStyle', (ne, ol) => (state.themeStyle = ne))
       ipcRendererListeners()
     });
     onUnmounted(() => {
@@ -362,7 +364,7 @@ export default defineComponent({
         state['loginDialog'] = e
     }
     const unLogin = () => {
-        moon.$_set(null,'userInfo')
+        moon.setState(null,'userInfo')
         state['loginDialog'] = true
     }
     // 看一眼密码
