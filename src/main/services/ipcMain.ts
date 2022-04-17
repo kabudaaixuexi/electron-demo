@@ -42,8 +42,6 @@ export default {
       updater(mainWindow)
     })
     ipcMain.handle('open-win', (event, arg) => {
-      console.log(arg);
-
       const ChildWin = new BrowserWindow({
         title: `${arg.title}` || `有疑问联系kaburda.163.com`,
         height: 595,
@@ -88,6 +86,10 @@ export default {
           // Do stuff when Y and either Command/Control is pressed.
           ChildWin.webContents.send('CommandOrControl+Z')
         })
+        globalShortcut.register('CommandOrControl+P', () => {
+          // Do stuff when Y and either Command/Control is pressed.
+          ChildWin.webContents.send('CommandOrControl+P')
+        })
       })
       app.on('browser-window-blur', () => {
         console.log('electron失去焦点');
@@ -99,9 +101,10 @@ export default {
       // ChildWin.close = () => {
       //   globalShortcut.unregisterAll()
       // }
-      // 如果是网络路径直接打开即可
-      if (arg.url.indexOf('http') !== -1) {
-        ChildWin.loadURL(arg.url)
+      // 如果是网络路径直接打开即可      
+      if (arg.network) {
+        const Exp = new RegExp(/http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/)
+        Exp.test(arg.url) ? ChildWin.loadURL(arg.url) : ChildWin.loadURL(`https://www.baidu.com/s?wd=${arg.url}`)
       } else {
         ChildWin.loadURL(winURL + `#${arg.url}`)
       }

@@ -46,7 +46,7 @@ export const repaintImg = (el) => {
                 const url = el.target.currentSrc
                 const len = url.split('/')
                 const title = len[len.length - 1]
-                ipcRenderer.invoke("open-win", { url, title });
+                ipcRenderer.invoke("open-win", { url, title, network: true });
             })
         }
         if(Array.from(el.children).length){

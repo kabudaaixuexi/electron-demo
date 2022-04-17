@@ -72,6 +72,10 @@ class MainInit {
         // Do stuff when Y and either Command/Control is pressed.
         this.mainWindow.webContents.send('CommandOrControl+Z')
       })
+      globalShortcut.register('CommandOrControl+P', () => {
+        // Do stuff when Y and either Command/Control is pressed.
+        this.mainWindow.webContents.send('CommandOrControl+P')
+      })
     })
     app.on('browser-window-blur', () => {
       console.log('electron失去焦点');

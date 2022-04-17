@@ -4171,10 +4171,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-sw-decorator-property@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/sw-decorator-property/-/sw-decorator-property-1.1.0.tgz#f401a553426a4ede9787b1b0dd890ad57a98f5da"
-  integrity sha512-j6yBpsrWqZHdQO4I6CPNMasjoSjQK34GeBcroIclrT/2IX8eL4o442g/vu9mxfUoDoedKXKcpPlXPLY0HtT4mw==
+sw-decorator-property@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/sw-decorator-property/-/sw-decorator-property-1.1.1.tgz#3720fb2bc1aa43502db7b09042292857f1d551d8"
+  integrity sha512-7iSUicGt41Cp9h05zBOY8mIjy3jXLcXiO/saqcHM4oZsKs7lZCcvRFyxL/Zq/G8V1LP1ZBuuw3z9iKcBEbTjPA==
   dependencies:
     reflect-metadata "^0.1.13"
 

@@ -61,6 +61,7 @@ export default defineComponent({
     padding-left: 50px;
         img {
         @include BR(50%);
+        background-color: aliceblue;
         filter: grayscale(30%);
         transition: .35s;
         box-sizing: content-box;

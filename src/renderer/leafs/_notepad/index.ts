@@ -18,7 +18,7 @@ import uploadImg from './components/UploadImg.vue';
 import fontStyle from './components/FontStyle.vue';
 import user from './components/User.vue';
 import { useRouter } from "vue-router";
-import { ElMessage, ElNotification, ElMessageBox } from 'element-plus'
+import { ElMessage, ElLoading, ElNotification } from 'element-plus'
 import { listenerDrag, listenerDrop, getVNode, parse,creatEmptyVNode,repaintImg } from "./util";
 import { fontNames, fontSizes } from "./config"
 import { debounce } from '@renderer/utils/tool'
@@ -43,7 +43,8 @@ export default defineComponent({
       noteList: [],
       curNote: null,
       themeStyle: moon.getState('themeStyle'),
-      userInfo: moon.getState('userInfo')
+      userInfo: null,
+      loading: null
     });
     // 修改布局方式
     const layoutChange = (layoutType) => {
@@ -60,12 +61,19 @@ export default defineComponent({
     };
     // 删除编辑区
     const removeRender = () => {
+        state.loading = ElLoading.service({
+            lock: true,
+            text: 'Loading',
+            background: 'rgba(0, 0, 0, 0.4)',
+          })
         var self = document.querySelector(`.notepad_sidebar_cont`);
         var parent = document.querySelector(`.notepad_sidebar`);
         self && parent.removeChild(self);
     }
     // 恢复编辑区
     const recoveryRender = () => {
+        state.loading?.close()
+        state.loading = null
         console.log('恢复编辑区恢复编辑区');
         var parent = document.querySelector(`.notepad_sidebar`);
         console.log(parent,'parent');
@@ -338,22 +346,31 @@ export default defineComponent({
                 command: 'undo'
             })
         })
-    }
-    onMounted(() => {
-      moon.watch('userInfo', (new_val,old_val)=>{
-        state.userInfo = new_val
-        removeRender()
-        setTimeout(() => {
-            if (moon.getState('userInfo')) {
-                getNoteList(()=>{
-                    state.curNote = state.noteList[0] || null
-                    recoveryRender()
-                 })
-            } else {
-                recoveryRender()
-            }
+        ipcRenderer.on('CommandOrControl+P', (event) => {
+            console.log('CommandOrControl+P')
+            ElNotification({
+                title: '正在打开新窗口',
+                message: window.getSelection().toString(),
+                type: 'success',
+              })
+            ipcRenderer.invoke("open-win", { url: window.getSelection().toString(), title: window.getSelection().toString(), network: true });
         })
-      }, true)
+    }
+    moon.watch('userInfo', (new_val,old_val)=>{
+      state.userInfo = new_val
+      removeRender()
+      setTimeout(() => {
+          if (moon.getState('userInfo')) {
+              getNoteList(()=>{
+                  state.curNote = state.noteList[0] || null
+                  recoveryRender()
+               })
+          } else {
+              recoveryRender()
+          }
+      })
+    })
+    onMounted(() => {
       moon.watch('themeStyle', (ne, ol) => (state.themeStyle = ne))
       ipcRendererListeners()
     });
