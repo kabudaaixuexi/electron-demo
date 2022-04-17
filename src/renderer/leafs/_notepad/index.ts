@@ -63,7 +63,7 @@ export default defineComponent({
     const removeRender = () => {
         state.loading = ElLoading.service({
             lock: true,
-            text: 'Loading',
+            // text: 'Loading',
             background: 'rgba(0, 0, 0, 0.4)',
           })
         var self = document.querySelector(`.notepad_sidebar_cont`);
@@ -348,12 +348,13 @@ export default defineComponent({
         })
         ipcRenderer.on('CommandOrControl+P', (event) => {
             console.log('CommandOrControl+P')
-            ElNotification({
-                title: '正在打开新窗口',
-                message: window.getSelection().toString(),
-                type: 'success',
-              })
-            ipcRenderer.invoke("open-win", { url: window.getSelection().toString(), title: window.getSelection().toString(), network: true });
+            if (window.getSelection().toString()) {
+                ElNotification({
+                    title: '查询信息',
+                    message: `${window.getSelection().toString()}`,
+                })
+                ipcRenderer.invoke("open-win", { url: window.getSelection().toString(), title: window.getSelection().toString(), network: true });
+            }
         })
     }
     moon.watch('userInfo', (new_val,old_val)=>{
