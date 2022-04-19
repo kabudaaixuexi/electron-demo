@@ -1,5 +1,6 @@
 import request from '@renderer/utils/request'
 import baidu from './baiduApi'
+import etouch from './etouchApi'
 import {getNoteListReq,addNoteReq,editNoteReq,removeNoteReq } from './type'
 export default {
     /** 获取笔记列表 */
@@ -34,5 +35,6 @@ export default {
         })
         return data
     },
-    ...baidu
+    ...baidu,
+    ...etouch
 } 

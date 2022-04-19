@@ -57,8 +57,9 @@ export default defineComponent({
 <style lang="scss">
 @import '@renderer/styles/style.scss';
 .notepad_header_translate {
-    @extend %Flex-Center-Start;
-    padding-left: 50px;
+    flex: 1;
+    @extend %Flex-Center-End;
+    padding-left: 20px;
         img {
         @include BR(50%);
         background-color: aliceblue;
@@ -67,6 +68,7 @@ export default defineComponent({
         box-sizing: content-box;
         opacity: .9;
         margin-right: 12px;
+        margin-top: 2px;
         width: 33px;
         height: 33px;
         &:hover {

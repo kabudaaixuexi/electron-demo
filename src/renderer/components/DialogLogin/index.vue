@@ -16,7 +16,7 @@
         />
         <el-input v-model="password" type="password" placeholder="请输入密码" />
         <template #footer>
-            <!-- <el-button disabled @click="dialogVisible = false">Cancel</el-button> -->
+            <el-button @click="changeRegister(true)">注册账户</el-button>
             <el-button type="primary" @click="chatLogin">确认登录</el-button>
         </template>
     </el-dialog>

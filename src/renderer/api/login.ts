@@ -1,25 +1,21 @@
 // 仅示例
-import request from '@renderer/utils/request'
+import request from '@renderer/utils/sqlRequest'
 
-// export function login (data) {
-//   return request({
-//     url: '/user/login',
-//     method: 'post',
-//     data
-//   })
-// }
-
-// export function getInfo (token) {
-//   return request({
-//     url: '/user/info',
-//     method: 'get',
-//     params: { token }
-//   })
-// }
-
-export function message() {
-  return request({
-    url: '/message',
-    method: 'get'
-  })
-}
+export default {
+  /** 获取笔记列表 */
+  getNoteList:async (payload:getNoteListReq) => {
+      const { data } = await request({
+          url: '/note/getNoteList',
+          data: {...payload}
+      })
+      return data
+  },
+  /** 添加笔记 */
+  addNote: async (payload:addNoteReq) => {
+      const { data } = await request({
+          url: '/note/addNote',
+          data: {...payload}
+      })
+      return data
+  }
+} 

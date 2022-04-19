@@ -48,8 +48,8 @@ export default defineComponent({
 @import '@renderer/styles/style.scss';
 .notepad_header_other {
         @extend %Flex-Center-Start;
-        padding-left: 100px;
-        padding-right: 70px;
+        padding-left: 40px;
+        padding-right: 40px;
         .el-upload {
             @extend %Flex-Center-Center;
         }

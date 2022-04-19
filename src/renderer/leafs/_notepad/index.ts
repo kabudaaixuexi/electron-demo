@@ -10,6 +10,7 @@ import {
 } from "vue";
 import menuCommon from "@renderer/components/MenuCommon/index.vue";
 import dialogLogin from '@renderer/components/DialogLogin/index.vue';
+import dialogRegister from '@renderer/components/DialogRegister/index.vue';
 import translate from './components/Translate.vue';
 import setup from './components/Setup.vue';
 import skin from './components/Skin.vue';
@@ -17,6 +18,8 @@ import voice from './components/Voice.vue';
 import uploadImg from './components/UploadImg.vue';
 import fontStyle from './components/FontStyle.vue';
 import user from './components/User.vue';
+import background from './components/Background.vue';
+import weather from './components/Weather.vue';
 import { useRouter } from "vue-router";
 import { ElMessage, ElLoading, ElNotification } from 'element-plus'
 import { listenerDrag, listenerDrop, getVNode, parse,creatEmptyVNode,repaintImg } from "./util";
@@ -28,7 +31,7 @@ const {ipcRenderer} = require("electron");
 
 export default defineComponent({
   components: {
-    menuCommon,dialogLogin,translate,setup,voice,fontStyle,uploadImg,user,skin
+    menuCommon,dialogLogin,dialogRegister,background,weather,translate,setup,voice,fontStyle,uploadImg,user,skin
   },
   setup() {
     const Router = useRouter();
@@ -40,6 +43,7 @@ export default defineComponent({
       layoutType: 2,
       disabled: true,
       loginDialog: true,
+      registerDialog: false,
       noteList: [],
       curNote: null,
       themeStyle: moon.getState('themeStyle'),
@@ -378,12 +382,19 @@ export default defineComponent({
     onUnmounted(() => {
         window.removeEventListener('keyup',()=>{})
     });
+    // 登录
     const changeLoginDialog = (e) => {
+        state['registerDialog'] = false
         state['loginDialog'] = e
     }
     const unLogin = () => {
         moon.setState(null,'userInfo')
         state['loginDialog'] = true
+    }
+    // 注册
+    const changeRegisterDialog = (e) => {
+        state['loginDialog'] = false
+        state['registerDialog'] = e
     }
     // 看一眼密码
     const concealClick = () => {
@@ -396,7 +407,7 @@ export default defineComponent({
       ...toRefs(state),
       noteChange,
       changeStyle,
-      unLogin,unlockChange,handleSelect,querySearchAsync,layoutChange,handleExceed,changeLoginDialog,addNote,removeNote,subtitleChange,preEditSubtitle,changeEncryption,concealClick,
+      unLogin,unlockChange,handleSelect,querySearchAsync,layoutChange,handleExceed,changeLoginDialog,changeRegisterDialog,addNote,removeNote,subtitleChange,preEditSubtitle,changeEncryption,concealClick,
       fontNames,fontSizes
     };
   },

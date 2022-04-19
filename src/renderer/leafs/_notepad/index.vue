@@ -48,6 +48,9 @@
         <!-- 设置 -->
         <setup />
 
+         <!-- 天气 -->
+        <weather />
+
         <!-- 用户 -->
         <user :unLogin="unLogin" :userInfo="userInfo"/>
     </nav>
@@ -72,12 +75,20 @@
         </article>
         <middle class="middle"></middle>
         <article contenteditable allowDrop :class="`notepad_sidebar_cont`" />
+        <background mode="meteor" />
     </section>
     <!-- 登陆弹窗 -->
     <dialogLogin 
         :dialogVisible="loginDialog"
-        @DialogVisible="changeLoginDialog"
+        :changeRegister="changeRegisterDialog"
+        :changeLoginDialog="changeLoginDialog"
         />
+    <!-- 注册弹窗 -->
+    <dialogRegister
+        :dialogVisible="registerDialog"
+        :changeLogin="changeLoginDialog"
+        :changeRegisterDialog="changeRegisterDialog"
+    />
     <el-dialog v-model="unlockVisible" :title="unlockTitle">
         <el-input v-model="unlockValue" placeholder="请输入密码" clearable />
         <template #footer>
@@ -144,6 +155,11 @@
             padding: 3px;
         }
     }
+    .el-autocomplete {
+        .el-input {
+            min-width: 160px;
+        }
+    }
 }
 .autocomplete {
     .el-scrollbar {
@@ -192,6 +208,7 @@
 .middle {
     display: block;
     width: 2px;
+    z-index: 1;
     cursor: col-resize;
     background: $color-default-derived-08;
     height: 100%;
@@ -214,6 +231,7 @@
     display: flex;
     position: relative;
     .notepad_sidebar_left {
+        z-index: 1;
         transition: all .3s;
         width: 160px;
         .notepad_list {
@@ -394,6 +412,7 @@
         }
     }
     .notepad_sidebar_cont {
+        z-index: 1;
         color: $color-primary-derived-08;
         border: none;
         outline: none;

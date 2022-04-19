@@ -10,7 +10,9 @@ import { setCookie, getCookie } from '@renderer/utils/tool'
 export default defineComponent({
   name: 'dialogLogin',
   props: {
-    dialogVisible: Boolean
+    dialogVisible: Boolean,
+    changeLoginDialog: Function,
+    changeRegister: Function
   },
   setup(props, context) {
     const state = reactive({
@@ -63,18 +65,9 @@ export default defineComponent({
       setCookie('uid', state.value, 10)
       setCookie('password', state.password, 10)
       setCookie('arturl', encodeURI(state.restaurants.find(ev => ev.value == state.value).arturl), 10)
-      
-      const temU = state.restaurants.filter(i => {
-        return state.value == i.value
-      })
-      if (temU.length) {
-        context.emit('DialogVisible', false)
-      } else {
-        ElMessage({
-          type:'error',
-          message:"只能使用默认账号名称登录！"
-        })
-      }
+
+      console.log(props);
+      props.changeLoginDialog(false)
     }
     onMounted(() => {
       if (getCookie('uid') && getCookie('password')) {
@@ -83,7 +76,7 @@ export default defineComponent({
           password: getCookie('password'),
           arturl: decodeURI(getCookie('arturl'))
         }, 'userInfo')
-        context.emit('DialogVisible', false)
+        props.changeLoginDialog(false)
       }
     })
     onUnmounted(() => { 

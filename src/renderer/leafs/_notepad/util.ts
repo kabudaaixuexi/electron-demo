@@ -32,8 +32,8 @@ export const listenerDrag = function () {
     };
 };
 // 重写所有图片，添加双击事件
-export const repaintImg = (el) => {
-    Array.from(el.children).map(el => {
+export const repaintImg = (el: any) => {
+    Array.from(el.children).map((el: any)=> {
         if (el.localName == 'img') {
             if(el.clientHeight < el.clientWidth) {
                 el.style.height = 'auto'
@@ -79,9 +79,9 @@ export const listenerDrop = (el) => {
         const appendImg = async (ev) => {
             let data = new FormData() //初始化时将form Dom对象传入
             data.append('file', ev) //将imagefile键追加进去，值为input-file的dom对象，否则服务端无法获取file
-            const { data:result } = await axios.post("http://124.220.16.124:8099/upload/setFilesNote",data)
+            const { data:result } = await axios.post('http://124.220.16.124:8099/upload/setFilesNote', data);
             // const img_src = URL.createObjectURL(ev);
-            Template.setup().changeStyle({
+            (Template as any).setup().changeStyle({
                 command: 'insertImage',
                 value: result.data
             })
@@ -89,8 +89,8 @@ export const listenerDrop = (el) => {
         }
         // 追加pdf
         const appendOther = (ev) => {
-            const template = `<iframe width="300px" height="400px" src="${URL.createObjectURL(ev)}" frameborder="0"></iframe>`
-            Template.setup().changeStyle({
+            const template = `<iframe width="300px" height="400px" src="${URL.createObjectURL(ev)}" frameborder="0"></iframe>`;
+            (Template as any).setup().changeStyle({
                 command: 'insertHTML',
                 value: template
             })

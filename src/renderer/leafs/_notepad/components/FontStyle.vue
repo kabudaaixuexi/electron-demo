@@ -156,7 +156,7 @@ export default defineComponent({
 @import '@renderer/styles/style.scss';
 .notepad_header_text {
     @extend %Flex-Center-Start;
-    padding-left: 50px;
+    padding-left: 20px;
         svg {
         @include BR(3px);
         transition: .35s;
