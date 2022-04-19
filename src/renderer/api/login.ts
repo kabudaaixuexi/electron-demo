@@ -1,21 +1,48 @@
 // 仅示例
-import request from '@renderer/utils/sqlRequest'
+import request from '@renderer/utils/request'
 
+interface postRegisterReq {
+	userName: string
+	passWord: string
+	nickName?: string
+	photo: string
+	extData?:object
+}
+interface postLoginReq {
+	userName: any
+	passWord: any
+}
 export default {
-  /** 获取笔记列表 */
-  getNoteList:async (payload:getNoteListReq) => {
+	/** 注册 */
+	getUserList: async () => {
+		const { data } = await request({
+			url: '/user/getUserList',
+			data: {}
+		})
+		return data
+	},
+  /** 注册 */
+  postRegister:async (payload:postRegisterReq) => {
       const { data } = await request({
-          url: '/note/getNoteList',
+          url: '/user/register',
           data: {...payload}
       })
       return data
   },
-  /** 添加笔记 */
-  addNote: async (payload:addNoteReq) => {
+  /** 登录 */
+  postLogin: async (payload:postLoginReq) => {
       const { data } = await request({
-          url: '/note/addNote',
+          url: '/user/login',
           data: {...payload}
       })
       return data
-  }
-} 
+  },
+  /** 登录 */
+  postModify: async (payload:any) => {
+	const { data } = await request({
+		url: '/user/modify',
+		data: {...payload}
+	})
+	return data
+}
+}

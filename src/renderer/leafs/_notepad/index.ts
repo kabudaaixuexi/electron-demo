@@ -98,7 +98,7 @@ export default defineComponent({
     // 获取笔记列表
     const getNoteList = async (cb = null) => {
         const { data } = await API.getNoteList({
-            uid: moon.getState('userInfo').uid
+            uid: moon.getState('userInfo').userName
         })
         // console.log(data);
         state.noteList = data
@@ -115,7 +115,7 @@ export default defineComponent({
         if (!state.curNote?.lockValue) {
             changeEncryptionSuccess(true, state.unlockValue)
             await API.editNote({
-                uid: moon.getState('userInfo').uid,
+                uid: moon.getState('userInfo').userName,
                 noteid: state.curNote.noteid,
                 subtitle: state.curNote.subtitle,
                 vNode: state.curNote.vNode,
@@ -148,7 +148,7 @@ export default defineComponent({
         removeRender()
         state.curNote.lock = e
         await API.editNote({
-            uid: moon.getState('userInfo').uid,
+            uid: moon.getState('userInfo').userName,
             noteid: state.curNote.noteid,
             subtitle: state.curNote.subtitle,
             vNode:state.curNote.vNode,
@@ -240,7 +240,7 @@ export default defineComponent({
     const subtitleChange = async (ev) => {
         state.disabled = true
         await API.editNote({
-            uid: moon.getState('userInfo').uid,
+            uid: moon.getState('userInfo').userName,
             noteid: state.curNote.noteid,
             subtitle: ev,
             vNode: state.curNote.vNode,
@@ -253,7 +253,7 @@ export default defineComponent({
     const editNote = async (ev) => {
         if (!state.curNote) return
         await API.editNote({
-            uid: moon.getState('userInfo').uid,
+            uid: moon.getState('userInfo').userName,
             noteid: state.curNote.noteid,
             subtitle: state.curNote.subtitle,
             vNode: ev,
@@ -268,7 +268,7 @@ export default defineComponent({
     const addNote = async () => {
         removeRender()
         const { data } = await API.addNote({
-            uid: moon.getState('userInfo').uid,
+            uid: moon.getState('userInfo').userName,
             vNode: creatEmptyVNode(),
             subtitle: '',
             lockValue: '',
@@ -284,7 +284,7 @@ export default defineComponent({
         removeRender()
         if (!state.curNote) return
         const { data } = await API.removeNote({
-            uid: moon.getState('userInfo').uid,
+            uid: moon.getState('userInfo').userName,
             noteid: state.curNote.noteid,
         })
         let index = 0

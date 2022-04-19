@@ -57,3 +57,12 @@ export function getCookie(key){
    }
   return "";
 }
+
+export const filterUser = (user: any, fa: any) => {
+	if (fa === 0) { // 加密
+		return JSON.stringify(user)
+	}
+	if (fa === 1) { //解密
+		return JSON.parse(user)
+	}
+}

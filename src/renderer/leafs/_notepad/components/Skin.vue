@@ -46,14 +46,22 @@
 <script>
 import { defineComponent, onMounted, onUnmounted, reactive, toRefs } from "vue";
 import moon from "@renderer/store";
+import API from '@renderer/api'
 export default defineComponent({
   name: "skin",
   props: {},
   setup(props, context) {
     const state = reactive({
     });
-    const handleChangeStyle = (e) => {
-      moon.setState(e, "themeStyle");
+    const handleChangeStyle =  async (themeStyle) => {
+      await API.postModify({
+        id: moon.getState('userInfo').id,
+        extData: JSON.stringify({
+          ...JSON.parse(moon.getState('userInfo').extData),
+          themeStyle
+        })
+      })
+      moon.setState(themeStyle, "themeStyle");
     };
     onMounted(() => {});
     onUnmounted(() => {});
